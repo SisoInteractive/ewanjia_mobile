@@ -164,3 +164,99 @@
     width: 0.6444rem;
   }
 }
+
+/* filtrateMod 筛选 CSS */
+.filtrateMod{
+  .shadeMod{
+    position:absolute;
+    background: #000;
+    height: 200%;
+    opacity: .6;
+    width: 100%;
+    top: .5rem;
+  }
+  position: absolute;
+  z-index: 399;
+  width: 100%;
+  margin-top: .05rem;
+  .filtrateHd{
+    background: #fff;
+    z-index: 399;
+    position: relative;
+    padding: 0 0.666rem;
+    height: 2.177rem;
+    line-height: 2.177rem;
+    font-size: 0.666rem;
+    color: #333;
+  }
+  .filtrateBd{
+    background: #fff;
+    z-index: 399;
+    position: relative;
+    padding: 0 0.666rem;
+    ul{
+      li{
+        font-size: 0.666rem;
+        color: #333;
+        background: url("../css/img/nogou.png") no-repeat center right ;
+        -webkit-background-size: 0.9111rem;
+        background-size: 0.9111rem;
+        height: 2.1777rem;
+        line-height: 2.1777rem;
+      }
+      .active{
+        background: url("../css/img/dagou.png") no-repeat center right ;
+        -webkit-background-size: 0.9111rem;
+      }
+    }
+  }
+  .filtrateCont{
+    background: #fff;
+    z-index: 399;
+    position: relative;
+    p{
+      padding: 0 0.666rem;
+      font-size: 0.666rem;
+      color: #333;
+      height: 2.1333rem;
+      line-height: 2.1333rem;
+    }
+    .rightY{
+      background:url("../css/img/fildw.png") no-repeat center right;
+      -webkit-background-size: 0.4222rem;
+      background-size: 0.4222rem;
+      padding: 0 .6rem;
+      margin-right:0.666rem;
+    }
+    .rightYactive{
+      background:url("../css/img/filup.png") no-repeat center right;
+      -webkit-background-size: 0.4222rem;
+      background-size: 0.4222rem;
+      padding: 0 .6rem;
+      margin-right:0.666rem;
+    }
+    .listConthd{
+      width: 100%;
+    }
+    .listCont{
+      width: 100%;
+      display: none;
+      padding: 0 -0.666rem !important;
+      li{
+        margin: 0 0.666rem;
+        text-align: center;
+        color: #333;
+        height: 2.1333rem;
+        line-height: 2.1333rem;
+        border-bottom: 1px solid #e8e8e8;
+      }
+      .active{
+        background-size: 0.7555rem;
+        color: #e14041!important;
+        i{
+          position: absolute;padding:0 0.2rem 0 0.5rem;
+        }
+      }
+    }
+  }
+}

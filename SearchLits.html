@@ -10,6 +10,7 @@
     <meta content="telephone=no" name="format-detection">
     <!-- vendor css -->
     <link rel="stylesheet" href="css/ewanjia.css">
+    <link rel="stylesheet/less" href="less/SearchList.less">
     <!-- js -->
     <script src="js/jqueyr-2.1.1.js"></script>
     <!-- less compiler -->
@@ -35,9 +36,7 @@
         </div>
 
 
-        <!-- 筛选模块 filtrate module -->
-        
-        <!-- end 筛选模块 filtrate module -->
+
 
         <!-- SearchList -->
         <div class="row mt10">
@@ -50,6 +49,52 @@
                     <li class="screen">筛选</li>
                 </ul>
             </div>
+
+            <!-- 筛选模块 filtrate module -->
+            <div class="filtrateMod ">
+                <div class="filtrateHd clearfix">
+                    <p class="fl-l">取消</p>
+                    <p class="fl-r">确定</p>
+                </div>
+                <div class="filtrateBd mt10">
+                    <ul>
+                        <li class="borBottom active">只看进口产品</li>
+                        <li class="borBottom">只看进口产品2</li>
+                        <li class="">只看促销优惠商品</li><!-- 最后一个li 无borBottom -->
+                    </ul>
+                </div>
+                <div class="filtrateCont mt10">
+                    <div class="list clearfix">
+                        <div class="fl-l clearfix listConthd borBottom">
+                            <p class="fl-l">品牌</p>
+                            <p class="fl-r rightYactive">不限</p>
+                        </div>
+                        <ul class="listCont fl-l borTop" style="display:block"><!--效果演示 开发后 记得删除 block-->
+                            <li class="fz30">聚鲜品</li>
+                            <li class="fz30 active">宅鲜配<i class="iconfont fz34">&#xe605;</i></li>
+                            <li class="fz30 active">大洋世家<i class="iconfont fz34">&#xe605;</i></li>
+                            <li class="fz30">唐人基</li>
+                        </ul>
+                    </div>
+
+                    <div class="list clearfix">
+                        <div class="fl-l clearfix listConthd borBottom">
+                            <p class="fl-l">价格</p>
+                            <p class="fl-r rightY">不限</p>
+                        </div>
+                        <ul class="listCont fl-l borTop">
+                            <li class="fz30">聚鲜品</li>
+                            <li class="fz30 active">宅鲜配<i class="iconfont fz34">&#xe605;</i></li>
+                            <li class="fz30 active">大洋世家<i class="iconfont fz34">&#xe605;</i></li>
+                            <li class="fz30">唐人基</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 遮罩层 -->
+                <div class="shadeMod">&nbsp;</div>
+            </div>
+            <!-- end 筛选模块 filtrate module -->
 
             <div class="SearchListP">
                 <ul>
