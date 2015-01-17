@@ -1,0 +1,1448 @@
+/* index 主页 */
+/* top nav */
+#SearchP .W-nav {
+  background: url("../css/img/navBg.png");
+}
+#SearchP .W-nav .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#SearchP .W-nav .search {
+  margin-left: 0.911rem;
+  margin-top: 0.42rem;
+  display: block;
+  float: left;
+}
+#SearchP .W-nav .search .searchInput {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  height: 1.11rem;
+  text-indent: .2rem;
+  width: 9.222rem;
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+#SearchP .W-nav .search .searchBtn {
+  background: url("../css/img/Searc.png") no-repeat center;
+  -webkit-background-size: 0.688rem;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-size: 0.688rem;
+  position: relative;
+  display: block;
+  float: left;
+  width: 1.11rem;
+  height: 1.11rem;
+  vertical-align: middle;
+}
+#SearchP .W-nav .more {
+  display: block;
+  float: right;
+  width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+#SearchP .W-nav .more img {
+  width: 1.066rem;
+}
+/* Snav */
+.Snav .shadow {
+  -moz-box-shadow: 1px 2px 2px #e7e7e7;
+  -webkit-box-shadow: 1px 2px 2px #e7e7e7;
+  box-shadow: 1px 2px 2px #e7e7e7;
+}
+.Snav ul {
+  display: -webkit-box;
+  display: -moz-box;
+  background: #fff;
+}
+.Snav ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 1.555rem;
+  line-height: 1.555rem;
+}
+.Snav ul li .up {
+  width: 0.4rem;
+}
+.Snav ul li .down {
+  width: 0.4rem;
+  transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(180deg);
+}
+.Snav ul .active {
+  background-color: #e14041;
+  color: #fff;
+}
+/* Search list */
+.SearchListP {
+  background: #fff;
+}
+.SearchListP li {
+  padding: 0.555rem 0.444rem;
+  position: relative;
+}
+.SearchListP .name {
+  margin-top: 0.2rem;
+}
+.SearchListP p {
+  line-height: .7rem;
+}
+.SearchListP .Pimg {
+  width: 3.955rem;
+}
+.SearchListP .titleTiny {
+  font-size: 0.533rem;
+}
+.SearchListP .label span {
+  font-size: 0.355rem;
+  padding: 0rem .1rem;
+  color: #fff;
+  margin-right: .2rem;
+  -webkit-border-radius: .3rem;
+  border-radius: .3rem;
+  line-height: .2rem;
+}
+.SearchListP .price {
+  font-size: 0.933rem;
+}
+.SearchListP .pft {
+  margin-top: 0.3rem;
+}
+.SearchListP .addcart {
+  position: absolute;
+  bottom: 0.666rem;
+  right: 0.711rem;
+}
+.SearchListP .addcart img {
+  width: 1.888rem;
+  display: block;
+}
+.SearchListP .addcart :active {
+  border: 1px solid red;
+}
+.unfoldMore {
+  background: url("../css/img/SCmorebg.png") no-repeat center 0.7rem;
+  background-size: 13.422rem;
+  position: relative;
+  padding: .3rem 0 .8rem 0;
+}
+.unfoldMore img {
+  position: absolute;
+  width: 0.555rem;
+  left: 50%;
+  margin-left: -0.222rem;
+  bottom: 0.4rem;
+}
+.cartCont {
+  position: fixed;
+  background: #e04040;
+  padding: 0 0.244rem;
+  color: #fff;
+  bottom: 1.755rem;
+  right: 0;
+}
+.cartCont img {
+  width: 0.6444rem;
+}
+
+/*type*/
+/* index 主页 */
+/* slide */
+.slide-banner {
+  width: 100%;
+  overflow: hidden;
+}
+.slide-banner .swiper-slide img {
+  width: 100%;
+}
+.slide-banner .pagination {
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  bottom: 0.311rem;
+}
+.slide-banner .pagination .swiper-pagination-switch {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 0.5rem;
+  margin: 0 .2rem;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+.slide-banner .pagination .swiper-active-switch {
+  background: #fff;
+}
+/* end slide */
+/* top nav */
+.W-nav {
+  background: url("../css/img/navBg.png");
+}
+.W-nav .Logo {
+  width: 4.1rem;
+  display: block;
+  float: left;
+  margin-top: 0.422rem;
+  margin-left: 0.288rem;
+}
+.W-nav .search {
+  margin-left: 0.911rem;
+  margin-top: 0.42rem;
+  display: block;
+  float: left;
+}
+.W-nav .search .searchInput {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  height: 1.11rem;
+  text-indent: .2rem;
+  width: 5.48rem;
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+.W-nav .search .searchBtn {
+  background: url("../css/img/Searc.png") no-repeat center;
+  -webkit-background-size: 0.688rem;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-size: 0.688rem;
+  position: relative;
+  display: block;
+  float: left;
+  width: 1.11rem;
+  height: 1.11rem;
+  vertical-align: middle;
+}
+.W-nav .address {
+  display: block;
+  float: right;
+  border: none;
+  width: 2.622rem;
+  background: url("../css/img/navSbg.png") no-repeat right center;
+  background-size: 0.244rem;
+  border-left: 1px solid #ebebeb;
+  font-size: 0.57rem;
+  padding-left: 0.54rem;
+  height: 2rem;
+  border-radius: 0;
+  text-align: center;
+}
+/* index Nav */
+.indexNav {
+  display: -webkit-box;
+  display: -moz-box;
+  background: #fff;
+  position: relative;
+  top: -0.2rem;
+  display: -o-box;
+}
+.indexNav li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 0.444rem;
+  color: #555;
+  height: 2.222rem;
+  line-height: 3.366rem;
+}
+.indexNav .classify {
+  background: url("../css/img/classify.png") no-repeat center 0.466rem;
+  background-size: 0.622rem;
+}
+.indexNav .order {
+  background: url("../css/img/order.png") no-repeat center 0.436rem;
+  background-size: 0.666rem;
+}
+.indexNav .cart {
+  background: url("../css/img/cart.png") no-repeat center 0.42rem;
+  background-size: 0.888rem;
+}
+.indexNav .myWjia {
+  background: url("../css/img/myWjia.png") no-repeat center 0.486rem;
+  background-size: 0.7333rem;
+}
+.indexNav .active {
+  background-color: #e14041;
+}
+.indexNav .active a {
+  color: #fff;
+}
+/* 商品分类模块 */
+.productClass {
+  background: #ffffff;
+  position: relative;
+}
+.productClass .ClassHd {
+  padding: 0 0.377rem;
+  background: #fff;
+}
+.productClass .ClassHd i {
+  position: absolute;
+  left: 0;
+  background: #e14041;
+  width: 0.044rem;
+  height: 0.844rem;
+}
+.productClass .ClassHd h2 {
+  font-size: 0.6222rem;
+  color: #555;
+  float: left;
+  display: block;
+}
+.productClass .ClassHd span {
+  display: block;
+  float: right;
+  margin-top: 0.146rem;
+  font-size: 0.4rem;
+}
+.productClass .ClassHd span img {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+.productClass .ClassBd .productUl {
+  display: -webkit-box;
+  border-top: 1px solid #ededed;
+  display: -moz-box;
+  display: -o-box;
+}
+.productClass .ClassBd .productUl .three {
+  width: 5.022rem;
+}
+.productClass .ClassBd .productUl li {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.productClass .ClassBd .productUl li .country {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.4rem;
+}
+.productClass .ClassBd .productUl li .country img {
+  width: 0.822rem;
+  display: inline-block;
+}
+.productClass .ClassBd .productUl li .country span {
+  width: 2.166rem;
+  display: inline-block;
+  line-height: .36rem;
+}
+.productClass .ClassBd .productUl li img {
+  width: 100%;
+}
+.productClass .ClassBd .productUl li p {
+  padding: 0 0.355rem;
+}
+.productClass .ClassBd .productUl li .Pft {
+  position: relative;
+  padding: 0 0.355rem;
+}
+.productClass .ClassBd .productUl li .Pft .kuC {
+  position: absolute;
+  right: 0.4rem;
+  top: .4rem;
+}
+.productClass .ClassBd .productUl li .Pft .kuC span {
+  width: 0.933rem;
+  background: #d9d9d9;
+  display: inline-block;
+  border-radius: .3rem;
+  height: 0.177rem;
+  position: relative;
+}
+.productClass .ClassBd .productUl li .Pft .kuC span em {
+  background: #77b136;
+  height: 0.177rem;
+  position: absolute;
+  border-radius: .3rem;
+}
+.productClass .ClassBd .productUl li .Pname {
+  font-size: 0.444rem;
+  color: #333;
+  line-height: 0.5rem;
+}
+.productClass .ClassBd .productUl li .price {
+  font-size: 0.666rem;
+}
+.productClass .ClassBd .productUl li i {
+  font-style: normal;
+}
+/* 持家有道 */
+.productSlide {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 6.533rem;
+}
+.productSlide .swiper-wrapper {
+  height: 6.533rem;
+  width: 100%;
+  padding: 0 0.3777rem;
+  float: left;
+}
+.productSlide .pagination2 {
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  bottom: 0.311rem;
+}
+.productSlide .pagination2 .swiper-pagination-switch {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 0.5rem;
+  margin: 0 .2rem;
+  background: #e4e4e4;
+  cursor: pointer;
+}
+.productSlide .pagination2 .swiper-active-switch {
+  background: #e14041;
+}
+.CjydDiv {
+  height: 5.333rem;
+}
+.CjydDiv a {
+  width: 7.044rem;
+  display: block;
+  float: left;
+}
+.CjydDiv .LeftImg {
+  width: 4.522rem;
+  height: 4.5222rem;
+  display: block;
+  float: left;
+}
+.CjydDiv .rightImg {
+  width: 2.19rem;
+  height: 2.19rem;
+  display: block;
+  float: right;
+}
+/* 鲜活到 */
+.Xhdao img {
+  width: 100%;
+  display: block;
+}
+/* 买手推荐 */
+.Mtuijian {
+  background: none !important;
+}
+.Mtuijian .productUl {
+  display: block!important;
+}
+.Mtuijian .two {
+  width: 49.26%;
+  display: block;
+}
+.Mtuijian .two a {
+  display: block;
+}
+.Mtuijian .two a img {
+  display: block;
+}
+.Mtuijian .two .Classname {
+  line-height: .6rem;
+}
+.Mtuijian .two p {
+  line-height: .7rem;
+  background: #fff;
+}
+.Mtuijian .two .MtuijianFt {
+  padding-top: .15rem!important;
+  padding-bottom: .2rem!important;
+}
+
+/* productCont page */
+/* top nav */
+#productCont .W-nav {
+  background: url("../css/img/navBg.png");
+}
+#productCont .W-nav .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#productCont .W-nav .search {
+  margin-left: 0.911rem;
+  margin-top: 0.42rem;
+  display: block;
+  float: left;
+  width: 9.222rem;
+}
+#productCont .W-nav .more {
+  display: block;
+  float: right;
+  width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+#productCont .W-nav .more img {
+  width: 0.777rem;
+}
+.produnctWrap {
+  padding-bottom: 1rem!important;
+  background: #fff;
+}
+/* 商品 Cont */
+.ContHd {
+  background: #fff;
+}
+.ContHd p {
+  padding: 0 0.222rem;
+  line-height: .8rem;
+}
+.ContHd .Pft {
+  padding: 0 0.222rem;
+}
+.ContHd .Pft .PriceHd {
+  position: relative;
+  top: -0.2rem;
+}
+.ContHd .Pft .price {
+  font-size: 1.3777rem;
+}
+.ContHd .Pft .originalPrice {
+  font-size: 0.888rem;
+  position: relative;
+  top: -0.1rem;
+}
+.ContHd .lineM {
+  line-height: .8rem;
+}
+.bannerImg {
+  display: block;
+  width: 100%;
+}
+/* ContBd */
+.ContBd {
+  background: #fff;
+  padding-bottom: .7rem;
+}
+.ContBd p {
+  line-height: .8rem;
+}
+.ContBd div {
+  padding: 0 0.222rem;
+}
+.ContBdL p {
+  font-size: 0.444rem;
+  width: 1.377rem;
+  display: block;
+}
+.ContBdR {
+  width: 12.311rem;
+  display: block;
+}
+.ContBdR .select {
+  width: 12.251rem;
+  background: url("../css/img/selectBg.png") no-repeat 11.711rem center;
+  -webkit-background-size: 0.2666rem;
+  background-size: 0.2666rem;
+  height: 1.1777rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+}
+.ContBdR .sum {
+  border-radius: 0;
+  width: 1.733rem;
+  height: 1.066rem;
+  text-align: center;
+}
+.ContBdR .reduce img,
+.ContBdR .add img {
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.ContBdR .service img {
+  position: relative;
+  top: -2px;
+  margin-right: 0.177rem;
+}
+.ContBdR .service .zhij {
+  width: 0.577rem;
+  vertical-align: middle;
+}
+.ContBdR .service .baox {
+  width: 0.6rem;
+  vertical-align: middle;
+}
+.ContBdR .service .renz {
+  width: 0.577rem;
+  vertical-align: middle;
+}
+/* ContFt */
+.ContFt {
+  background: #fff;
+  position: relative;
+}
+.ContFt .ContFtNav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  left: 0;
+}
+.ContFt .collect,
+.ContFt .addcart {
+  height: 1.5111rem;
+  line-height: 1.5111rem;
+  display: block;
+}
+.ContFt .collect {
+  background: url("../css/img/navBg.png");
+  width: 27.3611%;
+  text-align: center;
+  border-top: #e8e8e8 solid 1px;
+  border-bottom: #f0f0f0 solid 1px;
+}
+.ContFt .collect img {
+  width: 0.6888rem;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  margin-right: .15rem;
+}
+.ContFt .addcart {
+  width: 72.6389%;
+  text-align: center;
+  background: #e04040;
+  color: #fff;
+  border-top: #e35353 solid 1px;
+  border-bottom: #bd1b1b solid 1px;
+}
+.ContFt .ContFtXq {
+  border-bottom: 1px #e04040 solid;
+}
+.ContFt .ContFtXq .goodImg {
+  width: 0.5111rem;
+  display: inline-block;
+  margin-left: 0.2rem;
+}
+.ContFt .ContFtXq li {
+  width: 50%;
+  text-align: center;
+  height: 0.9777rem;
+  line-height: 0.9777rem ;
+}
+.ContFt .ContFtXq :active {
+  font-size: 0.455rem!important;
+}
+.ContFt .ContFtXq .GraphicDetails {
+  color: #fff;
+  background: #e04040;
+}
+.ContFt .ContFtXq .Reviews {
+  background: #f0f0f0;
+}
+.ContFt .ContImg img {
+  width: 100%;
+  margin-top: 0.111rem;
+}
+.ContFt .ContComment {
+  padding: 0 0.222rem;
+}
+.ContFt .ContComment li {
+  padding: .3rem 0;
+}
+.ContFt .ContComment .CommentCont {
+  line-height: .6rem;
+}
+.ContFt .ContComment .userhead {
+  width: 1.1777rem;
+  display: block;
+}
+.ContFt .ContComment .CommentValue img {
+  width: 0.4rem;
+  display: block;
+  float: left;
+  margin-right: .1rem;
+}
+.ContFt .ContComment .CommentBd {
+  position: relative;
+  margin-top: .2rem;
+}
+.ContFt .ContComment .CommentTime {
+  right: 0;
+  position: absolute;
+  color: #cfcfcf;
+  bottom: -0.1rem;
+}
+/* 商品分类模块 */
+.productClass {
+  background: #ffffff;
+  position: relative;
+}
+.productClass .shadow {
+  -moz-box-shadow: 0px 2px 1px #e7e7e7;
+  -webkit-box-shadow: 0px 2px 1px #e7e7e7;
+  box-shadow: 0px 2px 1px #e7e7e7;
+}
+.productClass .ClassHd {
+  padding: 0 0.377rem;
+  background: #fff;
+}
+.productClass .ClassHd i {
+  position: absolute;
+  left: 0;
+  background: #e14041;
+  width: 0.044rem;
+  height: 0.844rem;
+}
+.productClass .ClassHd h2 {
+  font-size: 0.6222rem;
+  color: #555;
+  float: left;
+  display: block;
+}
+.productClass .ClassHd span {
+  display: block;
+  float: right;
+  margin-top: 0.146rem;
+  font-size: 0.4rem;
+}
+.productClass .ClassHd span img {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+.productClass .ClassBd .productUl {
+  display: -webkit-box;
+  border-top: 1px solid #ededed;
+  display: -moz-box;
+  display: -o-box;
+}
+.productClass .ClassBd .productUl .three {
+  width: 5.022rem;
+}
+.productClass .ClassBd .productUl li {
+  -webkit-box-flex: 1;
+  position: relative;
+}
+.productClass .ClassBd .productUl li img {
+  width: 100%;
+}
+.productClass .ClassBd .productUl li p {
+  padding: 0 0.355rem;
+}
+.productClass .ClassBd .productUl li .Pft {
+  position: relative;
+  padding: 0 0.355rem;
+}
+.productClass .ClassBd .productUl li .Pft .kuC {
+  position: absolute;
+  right: 0.4rem;
+  top: .4rem;
+}
+.productClass .ClassBd .productUl li .Pft .kuC span {
+  width: 0.933rem;
+  background: #d9d9d9;
+  display: inline-block;
+  border-radius: .3rem;
+  height: 0.177rem;
+  position: relative;
+}
+.productClass .ClassBd .productUl li .Pft .kuC span em {
+  background: #77b136;
+  height: 0.177rem;
+  position: absolute;
+  border-radius: .3rem;
+}
+.productClass .ClassBd .productUl li .Pname {
+  font-size: 0.444rem;
+  color: #333;
+  line-height: 0.5rem;
+}
+.productClass .ClassBd .productUl li .price {
+  font-size: 0.666rem;
+}
+.productClass .ClassBd .productUl li i {
+  font-style: normal;
+}
+/* 买手推荐 */
+.Mtuijian {
+  background: none !important;
+}
+.Mtuijian .productUl {
+  display: block!important;
+}
+.Mtuijian .two {
+  width: 49.26%;
+  display: block;
+}
+.Mtuijian .two a {
+  display: block;
+}
+.Mtuijian .two a img {
+  display: block;
+}
+.Mtuijian .two .Classname {
+  line-height: .6rem;
+}
+.Mtuijian .two p {
+  line-height: .7rem;
+  background: #fff;
+}
+.Mtuijian .two .MtuijianFt {
+  padding-top: .15rem!important;
+  padding-bottom: .2rem!important;
+}
+
+@charset "utf-8";
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+  color: #555;
+  background: #ededed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: none;
+}
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,
+button,
+input,
+select,
+textarea {
+  font: 500 14px/1.8 Lucida, Verdana, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+/* IE6 Button 宽度自适应 */
+button,
+input {
+  *width: auto;
+  *overflow: visible;
+}
+/* 去掉各Table  cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* IE bug fixed: th 不继承 text-align*/
+th {
+  text-align: inherit;
+}
+/* 去除默认边框 */
+fieldset,
+img {
+  border: 0;
+}
+/* 解决 IE6-7 图片缩放锯齿问题 */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+  display: block;
+}
+/* 块/段落引用 */
+blockquote {
+  margin: 1em 4em 1em 2em;
+  padding: 0.6em 1em;
+  background: #f1f1f1;
+}
+blockquote blockquote {
+  padding: 0 0 0 1em;
+  margin-left: 2em;
+  border-left: 0.4em solid #ddd;
+}
+/* Firefox 以外，元素没有下划线，需添加 */
+acronym,
+abbr {
+  border-bottom: 1px dotted;
+  font-variant: normal;
+}
+/* 添加鼠标问号，进一步确保应用的语义是正确的（要知道，交互他们也有洁癖，如果你不去掉，那得多花点口舌） */
+abbr {
+  cursor: help;
+}
+/* 一致的 del 样式 */
+del {
+  text-decoration: line-through;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
+ul,
+ol {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption,
+th {
+  text-align: left;
+}
+q:before,
+q:after {
+  content: '';
+}
+/* 统一上标和下标 */
+:root sub,
+:root sup {
+  vertical-align: baseline;
+  /* for ie9 and other mordern browsers */
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* 让链接在 hover 状态下显示下划线 */
+/* 默认不显示下划线，保持页面简洁 */
+ins,
+a {
+  text-decoration: none;
+}
+/* 专名号：虽然 u 已经重回 html5 Draft，但在所有浏览器中都是可以使用的，
+ * 要做到更好，向后兼容的话，添加 class="typo-u" 来显示专名号
+ * 关于 <u> 标签：http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-u-element
+ * 被放弃的是 4，之前一直搞错 http://www.w3.org/TR/html401/appendix/changes.html#idx-deprecated
+ * 一篇关于 <u> 标签的很好文章：http://html5doctor.com/u-element/
+ */
+u,
+.typo-u {
+  text-decoration: underline;
+}
+/* 标记，类似于手写的荧光笔的作用 */
+mark {
+  background: #fffdd1;
+}
+/* 代码片断 */
+pre,
+code {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+pre {
+  border: 1px solid #ddd;
+  border-left-width: 0.4em;
+  background: #fbfbfb;
+  padding: 10px;
+}
+/* 底部印刷体、版本等标记 */
+small {
+  font-size: 12px;
+  color: #888;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+/* 保证块/段落之间的空白隔行 */
+.typo p,
+.typo pre,
+.typo ul,
+.typo ol,
+.typo dl,
+.typo form,
+.typo hr,
+.typo table,
+.typo-p,
+.typo-pre,
+.typo-ul,
+.typo-ol,
+.typo-dl,
+.typo-form,
+.typo-hr,
+.typo-table {
+  margin-bottom: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-weight: 800\9;
+  color: #333;
+}
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+.typo h1,
+.typo h2,
+.typo h3,
+.typo h4,
+.typo h5,
+.typo h6,
+.typo-h1,
+.typo-h2,
+.typo-h3,
+.typo-h4,
+.typo-h5,
+.typo-h6 {
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+.typo h1,
+.typo-h1 {
+  font-size: 1.8em;
+}
+.typo h2,
+.typo-h2 {
+  font-size: 1.6em;
+}
+.typo h3,
+.typo-h3 {
+  font-size: 1.4em;
+}
+.typo h4,
+.typo-h4 {
+  font-size: 1.2em;
+}
+.typo h5,
+.typo h6,
+.typo-h5,
+.typo-h6 {
+  font-size: 1em;
+}
+/* 在文章中，应该还原 ul 和 ol 的样式 */
+.typo ul,
+.typo-ul {
+  margin-left: 1.3em;
+  list-style: disc;
+}
+.typo ol,
+.typo-ol {
+  list-style: decimal;
+  margin-left: 1.9em;
+}
+.typo li ul,
+.typo li ol,
+.typo-ul ul,
+.typo-ul ol,
+.typo-ol ul,
+.typo-ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2em;
+}
+.typo li ul,
+.typo-ul ul,
+.typo-ol ul {
+  list-style: circle;
+}
+/* 同 ul/ol，在文章中应用 table 基本格式 */
+.typo table th,
+.typo table td,
+.typo-table th,
+.typo-table td {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+.typo table th,
+.typo-table th {
+  background: #fbfbfb;
+}
+.typo table thead th,
+.typo-table thead th {
+  background: #f1f1f1;
+}
+/* 去除 webkit 中 input 和 textarea 的默认样式  */
+.typo-input,
+.typo-textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+/*
+ * Swiper - Mobile Touch Slider CSS
+ * http://www.idangero.us/sliders/swiper
+ *
+ * Vladimir Kharlampidi, The iDangero.us
+ * http://www.idangero.us/
+ *
+ * Copyright 2012-2013, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us
+ *
+ * Licensed under GPL & MIT
+ *
+*/
+/* ===============================================================
+Basic Swiper Styles
+================================================================*/
+.container {
+  /* IE10 Windows Phone 8 Fixes */
+}
+.container .slide-banner {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
+.container .swiper-wrapper {
+  position: relative;
+  -webkit-transition-property: -webkit-transform, left, top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: -moz-transform, left, top;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px, 0, 0);
+  -moz-transition-timing-function: ease;
+  -o-transition-property: -o-transform, left, top;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px, 0, 0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px, 0px);
+  -ms-transition-property: -ms-transform, left, top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px, 0, 0);
+  -ms-transition-timing-function: ease;
+  transition-property: transform, left, top;
+  transition-duration: 0s;
+  transform: translate3d(0px, 0, 0);
+  transition-timing-function: ease;
+}
+.container .swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.container .swiper-slide {
+  float: left;
+}
+.container .swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.container .swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+/* TODO: 供着重号使用 */
+.typo-em,
+.typo em {
+  font-weight: 700;
+}
+/* TODO: 供首字下沉使用 */
+.typo-first {
+  position: absolute;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
+  outline: none;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #ccc;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #ccc;
+}
+input:-webkit-input-placeholder,
+textarea:-webkit-input-placeholder {
+  color: #ccc;
+}
+input {
+  -webkit-appearance: none;
+  /*去除input默认样式*/
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="input"],
+input {
+  -webkit-appearance: none;
+}
+input {
+  -webkit-appearance: none!important;
+  border-radius: 0;
+}
+select {
+  -webkit-appearance: none!important;
+  border-radius: 0;
+  -webkit-appearance: menulist;
+  -webkit-box-sizing: border-box;
+  -webkit-box-align: center;
+  border: 1px solid;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: white;
+  cursor: default;
+}
+/* 结构类common */
+#html {
+  font-size: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 540px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rowspace {
+  padding: 0 0.444rem;
+}
+.row {
+  position: relative;
+}
+.E_Footer {
+  padding: .2rem;
+  color: #999;
+}
+.BgBlable,
+.BgGlable,
+.BgRlable {
+  font-size: 0.355rem;
+  padding: .0rem .25rem;
+  color: #fff;
+  margin-right: .1rem;
+  -webkit-border-radius: .3rem;
+  border-radius: .3rem;
+  line-height: .01rem!important;
+}
+/* 基类样式 shadow */
+.shadow {
+  -moz-box-shadow: 0px 2px 2px #e7e7e7;
+  -webkit-box-shadow: 0px 2px 2px #e7e7e7;
+  box-shadow: 0px 2px 2px #e7e7e7;
+}
+.fl-l {
+  float: left ;
+}
+.fl-r {
+  float: right;
+}
+.fz14 {
+  font-size: 0.3111rem!important;
+}
+.fz16 {
+  font-size: 0.355rem!important;
+  color: #666666;
+}
+.fz18 {
+  font-size: 0.4rem!important;
+}
+.fz20 {
+  font-size: 0.444rem!important;
+}
+.fz24 {
+  font-size: 0.5333rem!important;
+}
+.fz26 {
+  font-size: 0.5777rem!important;
+}
+.fz28 {
+  font-size: 0.6222rem!important;
+}
+.fz30 {
+  font-size: 0.6666rem!important;
+}
+.fz34 {
+  font-size: 0.7555rem!important;
+}
+.fz40 {
+  font-size: 0.8888rem!important;
+}
+.fz52 {
+  font-size: 1.1555rem!important;
+}
+.renQ {
+  color: #f3484a!important;
+}
+.redS {
+  color: #e14041!important;
+}
+.cor999 {
+  color: #999;
+}
+.cor555 {
+  color: #555;
+}
+.cor333 {
+  color: #333;
+}
+.corbbb {
+  color: #bbb;
+}
+.coraaa {
+  color: #aaa;
+}
+.Cgray {
+  color: #aaa!important;
+}
+.width100 {
+  width: 100%;
+}
+.width66 {
+  width: 66.37%;
+}
+.width33 {
+  width: 33%;
+}
+.center {
+  text-align: center;
+}
+.borLeft {
+  border-left: 1px #e5e5e5 solid;
+}
+.borBottom {
+  border-bottom: 1px #e5e5e5 solid;
+}
+.borTop {
+  border-top: 1px #e5e5e5 solid;
+}
+.borRight {
+  border-right: 1px #e5e5e5 solid;
+}
+.border {
+  border: 1px #e5e5e5 solid;
+}
+.originalPrice {
+  text-decoration: line-through;
+}
+.noborder {
+  border: none !important;
+}
+.mt30 {
+  margin-top: 0.666rem!important;
+}
+.mt20 {
+  margin-top: 0.444rem!important;
+}
+.mt10 {
+  margin-top: 0.222rem!important;
+}
+.pt12 {
+  padding-top: 0.266rem!important;
+}
+.pt20 {
+  padding-top: 0.444rem!important;
+}
+.mt2 {
+  margin-top: 0.044rem!important;
+}
+.mt3 {
+  margin-top: 0.056rem!important;
+}
+.mt4 {
+  margin-top: 0.088rem!important;
+}
+.ml12 {
+  margin-left: 0.36rem!important;
+}
+.ml26 {
+  margin-left: 0.5377rem;
+}
+.pbBottom6 {
+  padding-bottom: 0.3rem;
+}
+.BgR {
+  background-color: #e14041;
+}
+.BgB {
+  background-color: #1e589c;
+}
+.BgG {
+  background-color: #78b235;
+}
