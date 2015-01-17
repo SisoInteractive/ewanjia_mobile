@@ -1,0 +1,157 @@
+/* index 主页 */
+/* top nav */
+#SearchP .W-nav {
+  background: url("../css/img/navBg.png");
+}
+#SearchP .W-nav .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#SearchP .W-nav .search {
+  margin-left: 0.911rem;
+  margin-top: 0.42rem;
+  display: block;
+  float: left;
+}
+#SearchP .W-nav .search .searchInput {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  height: 1.11rem;
+  text-indent: .2rem;
+  width: 9.222rem;
+  vertical-align: middle;
+  display: block;
+  float: left;
+}
+#SearchP .W-nav .search .searchBtn {
+  background: url("../css/img/Searc.png") no-repeat center;
+  -webkit-background-size: 0.688rem;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-size: 0.688rem;
+  position: relative;
+  display: block;
+  float: left;
+  width: 1.11rem;
+  height: 1.11rem;
+  vertical-align: middle;
+}
+#SearchP .W-nav .more {
+  display: block;
+  float: right;
+  width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+#SearchP .W-nav .more img {
+  width: 1.066rem;
+}
+/* Snav */
+.Snav .shadow {
+  -moz-box-shadow: 1px 2px 2px #e7e7e7;
+  -webkit-box-shadow: 1px 2px 2px #e7e7e7;
+  box-shadow: 1px 2px 2px #e7e7e7;
+}
+.Snav ul {
+  display: -webkit-box;
+  display: -moz-box;
+  background: #fff;
+}
+.Snav ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 1.555rem;
+  line-height: 1.555rem;
+}
+.Snav ul li .up {
+  width: 0.4rem;
+}
+.Snav ul li .down {
+  width: 0.4rem;
+  transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(180deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(180deg);
+}
+.Snav ul .active {
+  background-color: #e14041;
+  color: #fff;
+}
+/* Search list */
+.SearchListP {
+  background: #fff;
+}
+.SearchListP li {
+  padding: 0.555rem 0.444rem;
+  position: relative;
+}
+.SearchListP .name {
+  margin-top: 0.2rem;
+}
+.SearchListP p {
+  line-height: .7rem;
+}
+.SearchListP .Pimg {
+  width: 3.955rem;
+}
+.SearchListP .titleTiny {
+  font-size: 0.533rem;
+}
+.SearchListP .label span {
+  font-size: 0.355rem;
+  padding: 0rem .1rem;
+  color: #fff;
+  margin-right: .2rem;
+  -webkit-border-radius: .3rem;
+  border-radius: .3rem;
+  line-height: .2rem;
+}
+.SearchListP .price {
+  font-size: 0.933rem;
+}
+.SearchListP .pft {
+  margin-top: 0.3rem;
+}
+.SearchListP .addcart {
+  position: absolute;
+  bottom: 0.666rem;
+  right: 0.711rem;
+}
+.SearchListP .addcart img {
+  width: 1.888rem;
+  display: block;
+}
+.SearchListP .addcart :active {
+  border: 1px solid red;
+}
+.unfoldMore {
+  background: url("../css/img/SCmorebg.png") no-repeat center 0.7rem;
+  background-size: 13.422rem;
+  position: relative;
+  padding: .3rem 0 .8rem 0;
+}
+.unfoldMore img {
+  position: absolute;
+  width: 0.555rem;
+  left: 50%;
+  margin-left: -0.222rem;
+  bottom: 0.4rem;
+}
+.cartCont {
+  position: fixed;
+  background: #e04040;
+  padding: 0 0.244rem;
+  color: #fff;
+  bottom: 1.755rem;
+  right: 0;
+}
+.cartCont img {
+  width: 0.6444rem;
+}
