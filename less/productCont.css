@@ -177,9 +177,19 @@
 .ContFt .ContFtXq :active {
   font-size: 0.455rem!important;
 }
+.ContFt .ContFtXq :active i {
+  color: #fff!important;
+}
 .ContFt .ContFtXq .GraphicDetails {
-  color: #fff;
-  background: #e04040;
+  color: #555;
+  background-color: #f0f0f0;
+}
+.ContFt .ContFtXq .iconfont {
+  font-size: 0.5111rem;
+}
+.ContFt .ContFtXq .active {
+  color: #fff!important;
+  background: #e04040 !important;
 }
 .ContFt .ContFtXq .Reviews {
   background: #f0f0f0;

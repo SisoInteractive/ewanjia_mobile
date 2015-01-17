@@ -81,8 +81,11 @@
   -o-transform: rotate(180deg);
 }
 .Snav ul .active {
-  background-color: #e14041;
-  color: #fff;
+  background-color: #e14041!important;
+  color: #fff!important;
+}
+.Snav ul .active i {
+  color: #fff!important;
 }
 /* Search list */
 .SearchListP {
