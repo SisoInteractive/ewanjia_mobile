@@ -171,7 +171,6 @@
   height: 200%;
   opacity: .6;
   width: 100%;
-  top: .5rem;
 }
 .filtrateMod .filtrateHd {
   background: #fff;
@@ -253,6 +252,46 @@
   padding: 0 0.2rem 0 0.5rem;
 }
 
+#productSearch {
+  position: absolute;
+  height: 100%;
+  display: block;
+}
+#productSearch .W-nav {
+  padding-bottom: 0.444rem;
+}
+#productSearch .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
+  margin-left: 0.288rem;
+}
+#productSearch .searchInput {
+  width: 12.088rem;
+}
+/* searchCont */
+.searchCont {
+  background: #fff;
+  height: 100%;
+  display: block;
+}
+.searchCont ul {
+  width: 100%;
+}
+.searchCont ul li {
+  display: -webkit-box;
+  display: box;
+  width: 100%;
+}
+.searchCont ul li a {
+  padding: .2rem .0rem;
+  display: block;
+  margin: 0 0.222rem;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+
 @font-face {
   font-family: 'iconfont';
   src: url('http://at.alicdn.com/t/font_1421505251_3954737.eot');
@@ -329,6 +368,25 @@
   display: block;
   float: left;
   margin-top: 0.422rem;
+  margin-left: 0.288rem;
+}
+.W-nav .more {
+  display: block;
+  float: right;
+  width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+.W-nav .more img {
+  width: 1.066rem;
+}
+.W-nav .upBtn {
+  width: 0.488rem;
+  display: block;
+  float: left;
+  margin-top: 0.622rem;
   margin-left: 0.288rem;
 }
 .W-nav .search {
@@ -598,6 +656,42 @@
 .Mtuijian .two .MtuijianFt {
   padding-top: .15rem!important;
   padding-bottom: .2rem!important;
+}
+
+.Classify {
+  background: #fff;
+  /* classifyLeft */
+  /* classifyRight */
+}
+.Classify .classifyLeft {
+  padding-bottom: 3.5rem;
+}
+.Classify .classifyLeft li {
+  height: 1.7555rem;
+  line-height: 1.7555rem;
+  text-align: center;
+  width: 3.577rem;
+}
+.Classify .classifyLeft .active {
+  background: #e04040;
+  color: #fff;
+}
+.Classify .classifyRight {
+  width: 77%;
+}
+.Classify .classifyRight ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+.Classify .classifyRight ul li .listCont {
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 4.133rem;
+}
+.Classify .classifyRight ul li img {
+  margin-top: 0.8444rem;
+  width: 1.777rem;
 }
 
 /* productCont page */

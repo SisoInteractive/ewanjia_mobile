@@ -1,0 +1,35 @@
+.Classify {
+  background: #fff;
+  /* classifyLeft */
+  /* classifyRight */
+}
+.Classify .classifyLeft {
+  padding-bottom: 3.5rem;
+}
+.Classify .classifyLeft li {
+  height: 1.7555rem;
+  line-height: 1.7555rem;
+  text-align: center;
+  width: 3.577rem;
+}
+.Classify .classifyLeft .active {
+  background: #e04040;
+  color: #fff;
+}
+.Classify .classifyRight {
+  width: 77%;
+}
+.Classify .classifyRight ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+.Classify .classifyRight ul li .listCont {
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 4.133rem;
+}
+.Classify .classifyRight ul li img {
+  margin-top: 0.8444rem;
+  width: 1.777rem;
+}
