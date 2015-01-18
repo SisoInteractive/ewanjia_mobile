@@ -153,3 +153,104 @@
   right: -0.1rem;
   top: .4rem;
 }
+/* cart 购物车CSS */
+.myCart {
+  /* myCart ft*/
+}
+.myCart .myCartBd ul .activeli {
+  background: url("../css/img/dagou.png") no-repeat #ffffff 0.666rem 2.2666rem !important;
+  -webkit-background-size: 0.9111rem !important;
+  background-size: 0.9111rem !important;
+}
+.myCart .myCartBd ul .list {
+  overflow: hidden;
+  padding-top: 0.711rem;
+  padding-bottom: 0.711rem;
+  background: #fff;
+  background: url("../css/img/nogou.png") no-repeat #ffffff 0.666rem 2.2666rem;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem;
+  /* 右边 */
+}
+.myCart .myCartBd ul .list .listL {
+  width: 3.9555rem;
+  margin-left: 1.5777rem;
+}
+.myCart .myCartBd ul .list .listL .Pimg {
+  width: 3.8444rem;
+  height: 3.8444rem;
+}
+.myCart .myCartBd ul .list .listL .reduce img {
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.myCart .myCartBd ul .list .listL .add img {
+  width: 0.8444rem;
+  vertical-align: middle;
+}
+.myCart .myCartBd ul .list .listL .number {
+  border-radius: 0;
+  width: 1.633rem;
+  height: 1.066rem;
+  text-align: center;
+}
+.myCart .myCartBd ul .list .listR {
+  width: 8.566rem;
+}
+.myCart .myCartBd ul .list .listR p {
+  line-height: 0.55rem;
+}
+.myCart .myCartBd ul .list .listR .price {
+  font-size: 0.9555rem;
+  width: 100%;
+  position: relative;
+}
+.myCart .myCartBd ul .list .listR .sum {
+  display: block;
+  float: right;
+  margin-top: .35rem;
+}
+.myCart .myCartBd ul .list .listR .listRft span {
+  width: 4.1rem;
+  height: 1.2rem;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 1.2rem;
+  color: #333;
+  font-size: 0.4888rem;
+}
+.myCart .myCartBd ul .list .listR .listRft .delete {
+  border-right: none;
+}
+.myCart .myCartBd ul .list .listR .listRft .active {
+  background: #e24d4d;
+  border: #e24d4d 1px solid!important;
+  color: #fff!important;
+}
+.myCart .myCartft {
+  background: #fff;
+}
+.myCart .myCartft .price {
+  font-size: 1.111rem;
+}
+.myCart .myCartft .hd {
+  margin-top: 0.71rem;
+  margin-left: 0.666rem;
+}
+.myCart .myCartft .Clearing {
+  width: 4rem;
+  height: 2.222rem;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.222rem;
+  background: #e04040;
+}
+.myCart .myCartft .pricr {
+  width: 6.555rem;
+}
+.myCart .myCartft .sum {
+  position: relative;
+  right: .5rem;
+}
