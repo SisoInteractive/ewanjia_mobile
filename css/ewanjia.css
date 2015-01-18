@@ -397,6 +397,12 @@
 .W-nav .more img {
   width: 1.066rem;
 }
+.W-nav .renxin {
+  width: 2.322rem;
+  height: 2rem;
+  display: block;
+  float: right;
+}
 .W-nav .upBtn {
   width: 0.488rem;
   display: block;
@@ -848,7 +854,7 @@
   /* 右边 */
 }
 .myCart .myCartBd ul .list .listL {
-  width: 3.9555rem;
+  width: 4.0555rem;
   margin-left: 1.5777rem;
 }
 .myCart .myCartBd ul .list .listL .Pimg {
@@ -870,7 +876,7 @@
   text-align: center;
 }
 .myCart .myCartBd ul .list .listR {
-  width: 8.566rem;
+  width: 8.466rem;
 }
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;

@@ -1,3 +1,4 @@
+/* 分类 Classify */
 .Classify {
   background: #fff;
   /* classifyLeft */
@@ -33,6 +34,7 @@
   margin-top: 0.8444rem;
   width: 1.777rem;
 }
+/* end 分类 Classify */
 /* 商品的主题 theme */
 .PTheme {
   /* theme cont */
@@ -153,6 +155,7 @@
   right: -0.1rem;
   top: .4rem;
 }
+/* end 商品的主题 theme */
 /* cart 购物车CSS */
 .myCart {
   /* myCart ft*/
@@ -173,7 +176,7 @@
   /* 右边 */
 }
 .myCart .myCartBd ul .list .listL {
-  width: 3.9555rem;
+  width: 4.0555rem;
   margin-left: 1.5777rem;
 }
 .myCart .myCartBd ul .list .listL .Pimg {
@@ -195,7 +198,7 @@
   text-align: center;
 }
 .myCart .myCartBd ul .list .listR {
-  width: 8.566rem;
+  width: 8.466rem;
 }
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;

@@ -50,6 +50,12 @@
 .W-nav .more img {
   width: 1.066rem;
 }
+.W-nav .renxin {
+  width: 2.322rem;
+  height: 2rem;
+  display: block;
+  float: right;
+}
 .W-nav .upBtn {
   width: 0.488rem;
   display: block;
