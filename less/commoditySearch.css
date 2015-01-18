@@ -1,3 +1,8 @@
+#productSearch {
+  position: absolute;
+  height: 100%;
+  display: block;
+}
 #productSearch .W-nav {
   padding-bottom: 0.444rem;
 }
@@ -10,4 +15,25 @@
 }
 #productSearch .searchInput {
   width: 12.088rem;
+}
+/* searchCont */
+.searchCont {
+  background: #fff;
+  height: 100%;
+  display: block;
+}
+.searchCont ul {
+  width: 100%;
+}
+.searchCont ul li {
+  display: -webkit-box;
+  display: box;
+  width: 100%;
+}
+.searchCont ul li a {
+  padding: .2rem .0rem;
+  display: block;
+  margin: 0 0.222rem;
+  text-align: center;
+  -webkit-box-flex: 1;
 }
