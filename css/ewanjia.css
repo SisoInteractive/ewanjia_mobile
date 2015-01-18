@@ -293,12 +293,18 @@
 }
 
 @font-face {
-  font-family: 'iconfont';
-  src: url('http://at.alicdn.com/t/font_1421505251_3954737.eot');
-  src: url('http://at.alicdn.com/t/font_1421505251_3954737.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://at.alicdn.com/t/font_1421505251_3954737.woff') format('woff'), /* chrome、firefox */ url('http://at.alicdn.com/t/font_1421505251_3954737.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('http://at.alicdn.com/t/font_1421505251_3954737.svg#iconfont') format('svg');
+  font-family: "iconfont";
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/iconfont.woff') format('woff'), /* chrome、firefox */ url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../font/iconfont.svg#iconfont') format('svg');
   
   /* IE9*/
   /* iOS 4.1- */
+}
+@font-face {
+  font-family: "ewanjia";
+  src: url('../font/ewanjia.ttf') format('truetype');
+  
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -307,6 +313,18 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
+}
+.ewanjiaIcon {
+  font-family: "ewanjia" !important;
+  font-size: 0.3555rem;
+  font-style: normal;
+  color: #ccc;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-kongxing:before {
+  content: "\e606";
 }
 .icon-zan:before {
   content: "\e600";
@@ -325,9 +343,6 @@
 }
 .icon-wanchengduigou:before {
   content: "\e605";
-}
-.icon-xing:before {
-  content: "\e606;";
 }
 
 /*type*/
@@ -692,6 +707,33 @@
 .Classify .classifyRight ul li img {
   margin-top: 0.8444rem;
   width: 1.777rem;
+}
+/* 商品的主题 theme */
+.PTheme .themeNav ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+.PTheme .themeNav ul li {
+  background: #fff;
+  margin-right: 1px;
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 3.333rem;
+  color: #333;
+}
+.PTheme .themeNav ul li .ewanjiaIcon {
+  font-size: 1rem;
+}
+.PTheme .themeNav ul li p {
+  line-height: .5rem;
+}
+.PTheme .themeNav ul .active {
+  background: #e04040 !important;
+  color: #fff!important;
+}
+.PTheme .themeNav ul .active .ewanjiaIcon {
+  color: #fff!important;
 }
 
 /* productCont page */
@@ -1521,6 +1563,9 @@ select {
 }
 .rowspace {
   padding: 0 0.444rem;
+}
+.row30 {
+  padding: 0 0.6666rem;
 }
 .row {
   position: relative;

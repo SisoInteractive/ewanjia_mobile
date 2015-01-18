@@ -476,6 +476,9 @@ select {
 .rowspace {
   padding: 0 0.444rem;
 }
+.row30 {
+  padding: 0 0.6666rem;
+}
 .row {
   position: relative;
 }
@@ -522,6 +525,9 @@ select {
 }
 .fz20 {
   font-size: 0.444rem!important;
+}
+.fz22 {
+  font-size: 0.4888rem!important;
 }
 .fz24 {
   font-size: 0.5333rem!important;

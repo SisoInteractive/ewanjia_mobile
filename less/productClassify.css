@@ -33,3 +33,123 @@
   margin-top: 0.8444rem;
   width: 1.777rem;
 }
+/* 商品的主题 theme */
+.PTheme {
+  /* theme cont */
+}
+.PTheme .themeNav ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+.PTheme .themeNav ul li {
+  background: #fff;
+  margin-right: 1px;
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 3.333rem;
+  color: #333;
+}
+.PTheme .themeNav ul li .ewanjiaIcon {
+  font-size: 1rem;
+}
+.PTheme .themeNav ul li p {
+  line-height: .5rem;
+}
+.PTheme .themeNav ul .active {
+  background: #e04040 !important;
+  color: #fff!important;
+}
+.PTheme .themeNav ul .active .ewanjiaIcon {
+  color: #fff!important;
+}
+.PTheme .themeCont {
+  margin-top: 1.333rem;
+  height: 13.333rem;
+  padding-bottom: .3rem;
+}
+.PTheme .themeCont .contwrapO {
+  width: 100%;
+  position: relative;
+  height: 13.333rem;
+  background: #fff;
+  -moz-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  -webkit-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  box-shadow: -2px -1px 4px 0px #e0e0e0;
+}
+.PTheme .themeCont .contwrapT {
+  position: absolute;
+  margin-left: 0.113rem;
+  margin-top: 0.133rem;
+  height: 13.333rem;
+  width: 99%;
+  background: #fff;
+  -moz-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  -webkit-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  box-shadow: -2px -1px 4px 0px #e0e0e0;
+}
+.PTheme .themeCont .contwrapH {
+  position: absolute;
+  margin-left: 0.133rem;
+  margin-top: 0.133rem;
+  background: #fff;
+  width: 98.7%;
+  text-align: center;
+  height: 13.333rem;
+  -moz-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  -webkit-box-shadow: -2px -2px 2px 0px #e7e7e7;
+  box-shadow: -2px -1px 4px 0px #e0e0e0;
+}
+.PTheme .themeCont .contwrapH p {
+  line-height: .8rem;
+}
+.PTheme .themeCont .contwrapH .themeImg {
+  width: 13.622rem;
+}
+/* theme cont */
+.themeFt {
+  margin-top: 1.111rem;
+  padding-bottom: 2.8rem ;
+}
+.themeFt .themebd {
+  background: #fff;
+  width: 2.6222rem;
+  margin: 0 auto;
+  height: 2.6222rem;
+  text-align: center;
+  line-height: 2.6222rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 4rem;
+  border-radius: 10rem;
+  display: block;
+  position: relative;
+}
+.themeFt .themebd .now {
+  color: #e14041;
+  position: relative;
+  top: -0.55rem;
+  left: 0rem;
+  font-size: 0.888rem;
+}
+.themeFt .themebd em {
+  font-size: 1.5333rem;
+  width: 1px;
+  color: #d2d2d2;
+  top: -0.3rem;
+  left: 1.1rem;
+  position: absolute;
+  transform: rotate(27deg);
+  -o-transform: rotate(27deg);
+  -ms-transform: rotate(27deg);
+  /* IE 9 */
+  -moz-transform: rotate(27deg);
+  /* Firefox */
+  -webkit-transform: rotate(27deg);
+  /* Safari 和 Chrome */
+}
+.themeFt .themebd .sum {
+  color: #ccc;
+  position: relative;
+  right: -0.1rem;
+  top: .4rem;
+}
