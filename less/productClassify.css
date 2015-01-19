@@ -311,3 +311,49 @@
 .myOrder .OrderInfo li {
   background: #ffffff;
 }
+/* address */
+.myAddress .add-address {
+  height: 2.1777rem;
+  text-align: center;
+  background: #f9f9f9;
+  margin: 0 0.444rem;
+  color: #555;
+  font-size: 0.8rem;
+  line-height: 2.1777rem ;
+}
+.myAddress .listHd {
+  height: 3.555rem;
+}
+.myAddress .listHd .ListLeft {
+  width: 12rem;
+}
+.myAddress .listHd .ListLeft p {
+  font-size: 0.6222rem;
+  color: #333;
+}
+.myAddress .listHd .ListLeft .p1 {
+  margin-top: 0.68rem;
+}
+.myAddress .listHd .listR {
+  display: block;
+  width: 2.377rem;
+  height: 3.555rem;
+  font-size: 0.5333rem;
+  line-height: 5rem;
+  padding-left: .4rem;
+  text-align: center;
+  color: #7d7d7d;
+  background: url("../css/img/address.png") no-repeat center 0.888rem;
+  -webkit-background-size: 1.311rem;
+  background-size: 1.311rem;
+}
+.myAddress .listFt {
+  height: 1.5111rem;
+  display: -webkit-box;
+}
+.myAddress .listFt span {
+  -webkit-box-flex: 1;
+}
+.myAddress .list {
+  background: #fff;
+}
