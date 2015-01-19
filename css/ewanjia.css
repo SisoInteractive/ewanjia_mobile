@@ -377,6 +377,8 @@
 /* top nav */
 .W-nav {
   background: url("../css/img/navBg.png");
+  position: relative;
+  z-index: 33;
 }
 .W-nav .Logo {
   width: 4.1rem;
