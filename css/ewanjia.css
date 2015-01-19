@@ -679,6 +679,7 @@
   padding-bottom: .2rem!important;
 }
 
+/* 分类 Classify */
 .Classify {
   background: #fff;
   /* classifyLeft */
@@ -714,6 +715,7 @@
   margin-top: 0.8444rem;
   width: 1.777rem;
 }
+/* end 分类 Classify */
 /* 商品的主题 theme */
 .PTheme {
   /* theme cont */
@@ -834,6 +836,7 @@
   right: -0.1rem;
   top: .4rem;
 }
+/* end 商品的主题 theme */
 /* cart 购物车CSS */
 .myCart {
   /* myCart ft*/
@@ -1871,7 +1874,7 @@ select {
 .width33 {
   width: 33%;
 }
-.center {
+.Contcenter {
   text-align: center;
 }
 .borLeft {
