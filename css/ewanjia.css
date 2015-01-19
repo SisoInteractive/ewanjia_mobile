@@ -940,6 +940,60 @@
   position: relative;
   right: .5rem;
 }
+/* end cart 购物车CSS */
+/* Order */
+.myOrder {
+  /* bottom submit */
+}
+.myOrder .submitOrder {
+  margin-top: 1.1rem;
+}
+.myOrder .submitOrder a {
+  padding: .5rem 0;
+  font-size: 0.8rem;
+}
+.myOrder .sum-owing {
+  margin-top: .0rem;
+}
+.myOrder .sumOwing {
+  margin-top: .8rem;
+}
+.myOrder .sumOwing div {
+  line-height: 1.1rem;
+}
+.myOrder .OrderInfo .title {
+  height: 1.666rem;
+  line-height: 1.666rem;
+  color: #aaa;
+  border-bottom: 1px solid #ededed;
+}
+.myOrder .OrderInfo .cont {
+  color: #333;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  position: relative;
+  background: url("../css/img/ago.png") no-repeat 95% center;
+  -webkit-background-size: 0.8666rem;
+  background-size: 0.8666rem;
+}
+.myOrder .OrderInfo .cont .phone {
+  padding-left: 1rem;
+}
+.myOrder .OrderInfo .cont .p1 {
+  padding-top: 0rem;
+}
+.myOrder .OrderInfo .cont .ml18 {
+  margin-left: 0.444rem;
+}
+.myOrder .OrderInfo .cont .time {
+  width: 8.266rem;
+}
+.myOrder .OrderInfo .cont .time p {
+  line-height: .5rem;
+}
+.myOrder .OrderInfo li {
+  background: #ffffff;
+}
 
 /* productCont page */
 /* top nav */
@@ -1840,6 +1894,9 @@ select {
 .fz40 {
   font-size: 0.8888rem!important;
 }
+.fz50 {
+  font-size: 1.1111rem!important;
+}
 .fz52 {
   font-size: 1.1555rem!important;
 }
@@ -1875,6 +1932,22 @@ select {
 }
 .width33 {
   width: 33%;
+}
+.btnW100 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #e14041;
+  border-top: 1px solid #e45354;
+  border-bottom: 1px solid #be1b1b;
+  border-left: 1px solid #cb2829;
+  border-right: 1px #cb2829 solid;
+  color: #fff;
+}
+.btnW100:active {
+  color: #fff;
+  background: #e84748;
+  border: 1px #a60809 solid;
 }
 .Contcenter {
   text-align: center;

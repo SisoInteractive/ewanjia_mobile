@@ -547,6 +547,9 @@ select {
 .fz40 {
   font-size: 0.8888rem!important;
 }
+.fz50 {
+  font-size: 1.1111rem!important;
+}
 .fz52 {
   font-size: 1.1555rem!important;
 }
@@ -582,6 +585,22 @@ select {
 }
 .width33 {
   width: 33%;
+}
+.btnW100 {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #e14041;
+  border-top: 1px solid #e45354;
+  border-bottom: 1px solid #be1b1b;
+  border-left: 1px solid #cb2829;
+  border-right: 1px #cb2829 solid;
+  color: #fff;
+}
+.btnW100:active {
+  color: #fff;
+  background: #e84748;
+  border: 1px #a60809 solid;
 }
 .Contcenter {
   text-align: center;
