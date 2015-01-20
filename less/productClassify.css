@@ -266,7 +266,7 @@
   margin-top: 1.1rem;
 }
 .myOrder .submitOrder a {
-  padding: .5rem 0;
+  padding: .44rem 0;
   font-size: 0.8rem;
 }
 .myOrder .sum-owing {
@@ -370,4 +370,71 @@
 .myAddress .list {
   background: #fff;
   margin-top: 0.222rem;
+}
+/* myModify */
+.ModifyAddress .submitModify a {
+  padding: .44rem 0;
+  font-size: 0.8rem;
+  margin-top: 0.888rem;
+}
+.ModifyAddress .ModifyCont {
+  background: #fff;
+}
+.ModifyAddress .ModifyCont .hd {
+  float: left;
+  width: 3.4888rem;
+  display: block;
+  color: #aaa;
+}
+.ModifyAddress .ModifyCont li {
+  overflow: hidden;
+  padding: 0 0.6666rem;
+  border-bottom: 1px solid #e7e7e7;
+  height: 2.1555rem;
+  line-height: 2.1555rem;
+}
+.ModifyAddress .ModifyCont li .Cont {
+  margin-left: 1.466rem;
+}
+.ModifyAddress .ModifyCont li .Cont input {
+  border: none;
+  height: 1.188rem;
+  width: 9.222rem;
+  margin-top: .5rem;
+  font-size: 0.666rem;
+}
+/* Pay method */
+.method {
+  /* bottom submit */
+}
+.method .submitOrder {
+  margin-top: 1.1rem;
+}
+.method .submitOrder a {
+  padding: .44rem 0;
+  font-size: 0.8rem;
+}
+.method .methodInfo {
+  background: #fff;
+}
+.method .methodInfo .title {
+  height: 1.666rem;
+  line-height: 1.666rem;
+  color: #aaa;
+}
+.method .methodInfo .active {
+  background: url("../css/img/dagou.png") no-repeat 0.666rem center !important;
+  -webkit-background-size: 0.9111rem !important;
+}
+.method .methodInfo li {
+  border-top: 1px solid #ededed;
+  background: #fff;
+  height: 2.1777rem;
+  padding-left: 2.2222rem;
+  line-height: 2.1777rem;
+  background: url("../css/img/nogou.png") no-repeat 0.666rem center;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem;
+  font-size: 0.666rem;
+  color: #333;
 }
