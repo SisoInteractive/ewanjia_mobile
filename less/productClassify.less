@@ -338,17 +338,30 @@
 
 /* address */
 .myAddress{
+
   .add-address{
     height: 2.1777rem;
     text-align: center;
     background: #f9f9f9;
-    margin: 0 0.444rem;
     color: #555;
     font-size: 0.8rem;line-height:2.1777rem ;
+    margin: 0.666rem 0.444rem 0.444rem 0.444rem;
   }
+  .add-address:active{
+    background: #efefef;
+   }
   .addressCont{
 
   }
+  .active{
+      .listR{
+        background: url("../css/img/address-active.png") no-repeat center 0.888rem !important;
+        -webkit-background-size: 1.311rem !important;
+        background-size: 1.311rem !important;
+        color:#e04040!important;
+      }
+  }
+
   .listHd{
     height: 3.555rem;
     .ListLeft{
@@ -379,12 +392,17 @@
   .listFt{
     height: 1.5111rem;
     display: -webkit-box;
-    span{
-      -webkit-box-flex: 1;
+    a{
+      width: 50%;
+      text-align: center;
+      display: block;
+      height: 1.5111rem;
+      line-height: 1.5111rem;
     }
   }
 
   .list{
     background: #fff;
+    margin-top: 0.222rem;
   }
 }
