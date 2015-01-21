@@ -278,6 +278,7 @@
 }
 .searchCont ul {
   width: 100%;
+  padding-bottom: .5rem;
 }
 .searchCont ul li {
   display: -webkit-box;
@@ -386,6 +387,14 @@
   float: left;
   margin-top: 0.422rem;
   margin-left: 0.288rem;
+}
+.W-nav .skip {
+  font-size: 0.7111rem;
+  color: #adadad;
+  text-align: right !important;
+  line-height: 1.8rem !important;
+  width: 2.022rem!important;
+  padding-right: .3rem!important;
 }
 .W-nav .more {
   display: block;
@@ -953,7 +962,7 @@
   margin-top: 1.1rem;
 }
 .myOrder .submitOrder a {
-  padding: .44rem 0;
+  padding: .43rem 0;
   font-size: 0.8rem;
 }
 .myOrder .sum-owing {
@@ -1157,7 +1166,117 @@
   margin-top: 0.9333rem;
 }
 .Accomplish .submit a {
-  padding: 0.9333rem 0 !important;
+  padding: 0.43rem 0 !important;
+}
+.Accomplish .submit .btnWB {
+  margin-top: 0.2222rem !important;
+}
+/* checkstand 收银台 */
+.checkstand .checkstandHd {
+  margin-top: 0.8222rem;
+  margin-bottom: 0.8222rem;
+}
+.checkstand .checkstandHd .price {
+  font-size: 1.3777rem;
+}
+.checkstand .checkstandHd p {
+  line-height: 1.2rem;
+}
+.checkstand .checkstandCont {
+  background: #fff;
+}
+.checkstand .checkstandCont .active {
+  background: url("../css/img/dagou.png") no-repeat 0 center !important;
+  background-size: 0.9111rem !important;
+}
+.checkstand .checkstandCont li {
+  background: url("../css/img/nogou.png") no-repeat 0 center;
+  background-size: 0.9111rem;
+  background-color: #fff;
+  padding: .7rem 0;
+}
+.checkstand .checkstandCont img {
+  padding-left: 1.6444rem;
+  vertical-align: middle;
+}
+.checkstand .submitOrder {
+  margin-top: 0.9333rem;
+}
+.checkstand .submitOrder a {
+  padding: 0.43rem 0 !important;
+}
+/* register phone 手机注册 */
+.userRegister {
+  /* 合作协议 */
+  /* 注册协议 */
+}
+.userRegister .protocol {
+  margin: 0.3rem 0.6666rem;
+  font-size: 0.6666rem;
+  padding-left: 1.1111rem;
+  background: url("../css/img/nogou.png") no-repeat 0 center;
+  -webkit-background-size: 0.8888rem;
+  background-size: 0.8888rem;
+}
+.userRegister .register {
+  margin-top: 0.6666rem;
+}
+.userRegister .register input {
+  border: none;
+  font-size: 0.6666rem;
+  height: 2.2222rem;
+  text-indent: 0.4444rem;
+}
+.userRegister .register .phone {
+  width: 100%;
+}
+.userRegister .register .captcha {
+  width: 68%;
+}
+.userRegister .register .captchaBtn {
+  width: 30%;
+  background: #b4b4b4;
+  float: right;
+  display: block;
+  height: 2.2222rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.6666rem;
+  line-height: 2.2222rem;
+}
+.userRegister .active {
+  background: url("../css/img/dagou.png") no-repeat 0 center !important;
+  -webkit-background-size: 0.8888rem !important;
+  background-size: 0.8888rem !important;
+}
+.userRegister .registerFt {
+  margin-top: 0.6666rem;
+}
+.userRegister .registerFt a {
+  padding: 0.43rem 0 !important;
+}
+.userRegister .registerFt .btnWB {
+  width: 4.2rem;
+}
+.userRegister .registerFt .btnW100 {
+  width: 10.2rem;
+}
+/* register email 邮箱注册 */
+.userEmail .captcha {
+  width: 37% !important;
+}
+.userEmail .captchaImg {
+  margin-left: 0.1333rem;
+}
+.userEmail .captchaImg img {
+  width: 4.266rem !important;
+  vertical-align: middle;
+  position: relative;
+  top: -0.0888rem;
+}
+.userEmail .captchaImg a {
+  font-size: 0.4888rem;
+  color: #aaa;
 }
 
 /* productCont page */
@@ -1963,6 +2082,16 @@ input {
   -webkit-appearance: none!important;
   border-radius: 0;
 }
+input:focus {
+  transition: border linear 0.2s, box-shadow linear 0.5s;
+  -moz-transition: border linear 0.2s, -moz-box-shadow linear 0.5s;
+  -webkit-transition: border linear 0.2s, -webkit-box-shadow linear 0.5s;
+  outline: none;
+  box-shadow: 0 0 3px #f58282;
+  -moz-box-shadow: 0 0 3px #f58282;
+  -webkit-box-shadow: 0 0 3px #f58282;
+  border: 1px solid #f58282!important;
+}
 select {
   -webkit-appearance: none!important;
   border-radius: 0;
@@ -2070,6 +2199,20 @@ select {
   background: #e84748;
   border: 1px #a60809 solid;
 }
+.btnWB {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #FFF;
+  border: 1px solid #d4d4d4;
+  color: #555;
+  font-size: 0.8rem;
+}
+.btnWB:active {
+  color: #555;
+  background: #f7f6f6;
+  border: 1px #d4d4d4 solid;
+}
 .Contcenter {
   text-align: center;
 }
@@ -2123,6 +2266,9 @@ select {
 }
 .mt4 {
   margin-top: 0.088rem!important;
+}
+.mt16 {
+  margin-top: 0.355rem !important;
 }
 .ml2 {
   margin-left: 0.044rem!important;

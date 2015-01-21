@@ -362,6 +362,17 @@ input{
   -webkit-appearance:none!important;
   border-radius:0;
 }
+input:focus{
+  transition:border linear .2s,box-shadow linear .5s;
+  -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+  -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+  outline:none;
+  box-shadow:0 0 3px #f58282;
+  -moz-box-shadow:0 0 3px #f58282;
+  -webkit-box-shadow:0 0 3px #f58282;
+  border: 1px solid #f58282!important;
+}
+
 select{
   -webkit-appearance:none!important;
   border-radius:0;
@@ -454,6 +465,21 @@ select{
   background: #e84748;
   border: 1px #a60809 solid;
 }
+.btnWB{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #FFF;
+  border:1px solid #d4d4d4;
+  color: #555;
+  font-size: 0.8rem;
+
+}
+.btnWB:active{
+  color: #555;
+  background: #f7f6f6;
+  border: 1px #d4d4d4 solid;
+}
 
 
 .Contcenter{ text-align: center }
@@ -475,6 +501,7 @@ select{
 .mt2 { margin-top: 0.044rem!important;}
 .mt3 { margin-top: 0.056rem!important;}
 .mt4 { margin-top: 0.088rem!important;}
+.mt16{ margin-top: @unit16 !important }
 .ml2{ margin-left: 0.044rem!important;}
 .ml12{ margin-left:0.36rem!important;}
 .ml26{ margin-left:0.5377rem }

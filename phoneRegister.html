@@ -10,7 +10,6 @@
     <meta content="telephone=no" name="format-detection">
     <!-- vendor css -->
     <link rel="stylesheet" href="css/ewanjia.css">
-    <link rel="stylesheet/less" href="less/type.less">
     <link rel="stylesheet/less" href="less/productClassify.less">
     <!-- js -->
     <script src="js/jqueyr-2.1.1.js"></script>
@@ -25,32 +24,32 @@
             <div class="W-nav clearfix rowspace shadow">
                 <a class="fl-l"><img src="css/img/topup.png" class="upBtn"></a>
                 <div class="search fz28">
-                    订单结算
+                    手机注册
                 </div>
-                <div class="renxin"></div><!-- 站位Block-->
+                <div class="more">
+                    <img src="css/img/more.png">
+                </div>
             </div>
         </nav>
 
 
         <article>
-            <!--  Order Accomplish -->
-            <div class="Accomplish clearfix mt10">
-
-                <div class="AccomplishCont">
-                    <p class="fz50 p1"><i><img src="css/img/payok.png"></i>订单提交成功</p>
-                    <p class="fz28">订单号&nbsp;:<span>7852802952</span></p>
-                    <p class="fz28">应付金额&nbsp;:<span>￥178.00元</span></p>
-                    <p class="fz28">支付方式&nbsp;:<span>在线支付</span></p>
-                    <p class="fz24 ft borTop">请在24小时内完成支付，否则订单将会被取消</P>
+            <!--  phone register -->
+            <div class="phone userRegister clearfix mt10">
+                <div class="register rowspace">
+                    <p><input placeholder="输入手机号码" class="phone"></p>
+                    <p class="mt10">
+                        <input placeholder="输入短信验证码" type="number" class="captcha">
+                        <span class="captchaBtn">获取验证码</span>
+                    </p>
                 </div>
+                <p class="protocol active">我已阅读并同意 <a href="#" class="redS">e万家服务协议</a></p>
 
-
-                <div class="rowspace submit">
-                    <a class="btnW100">在线支付</a>
-                    <a class="btnWB">查看订单</a>
+                <div class="rowspace registerFt clearfix">
+                    <a class="btnWB fl-l">邮箱注册</a>
+                    <a class="btnW100 fl-r">注册</a>
                 </div>
-
-            </div><!-- end Order Accomplish -->
+            </div><!-- end Pay method -->
 
             <!--底部-->
             <div class="E_Footer fz16 Contcenter pt50">Copyright © 2004－2015, ewj.com 版权所有</div>
