@@ -626,6 +626,9 @@ select {
 .noborder {
   border: none !important;
 }
+.noborR {
+  border-right: none !important;
+}
 .mt30 {
   margin-top: 0.666rem!important;
 }

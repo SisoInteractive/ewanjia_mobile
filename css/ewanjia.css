@@ -704,17 +704,20 @@
   width: 77%;
 }
 .Classify .classifyRight ul li {
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
+  width: 33%;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
-.Classify .classifyRight ul li .listCont {
+.Classify .classifyRight ul .listCont {
   -webkit-box-flex: 1;
   text-align: center;
   height: 4.133rem;
 }
-.Classify .classifyRight ul li img {
-  margin-top: 0.8444rem;
+.Classify .classifyRight ul .listCont .pimhg {
+  display: inline-block;
+}
+.Classify .classifyRight ul .listCont img {
+  margin-top: .7rem;
   width: 1.777rem;
 }
 /* end 分类 Classify */
@@ -949,7 +952,7 @@
   margin-top: 1.1rem;
 }
 .myOrder .submitOrder a {
-  padding: .5rem 0;
+  padding: .44rem 0;
   font-size: 0.8rem;
 }
 .myOrder .sum-owing {
@@ -999,10 +1002,19 @@
   height: 2.1777rem;
   text-align: center;
   background: #f9f9f9;
-  margin: 0 0.444rem;
   color: #555;
   font-size: 0.8rem;
   line-height: 2.1777rem ;
+  margin: 0.666rem 0.444rem 0.444rem 0.444rem;
+}
+.myAddress .add-address:active {
+  background: #efefef;
+}
+.myAddress .active .listR {
+  background: url("../css/img/address-active.png") no-repeat center 0.888rem !important;
+  -webkit-background-size: 1.311rem !important;
+  background-size: 1.311rem !important;
+  color: #e04040!important;
 }
 .myAddress .listHd {
   height: 3.555rem;
@@ -1034,11 +1046,83 @@
   height: 1.5111rem;
   display: -webkit-box;
 }
-.myAddress .listFt span {
-  -webkit-box-flex: 1;
+.myAddress .listFt a {
+  width: 50%;
+  text-align: center;
+  display: block;
+  height: 1.5111rem;
+  line-height: 1.5111rem;
 }
 .myAddress .list {
   background: #fff;
+  margin-top: 0.222rem;
+}
+/* myModify */
+.ModifyAddress .submitModify a {
+  padding: .44rem 0;
+  font-size: 0.8rem;
+  margin-top: 0.888rem;
+}
+.ModifyAddress .ModifyCont {
+  background: #fff;
+}
+.ModifyAddress .ModifyCont .hd {
+  float: left;
+  width: 3.4888rem;
+  display: block;
+  color: #aaa;
+}
+.ModifyAddress .ModifyCont li {
+  overflow: hidden;
+  padding: 0 0.6666rem;
+  border-bottom: 1px solid #e7e7e7;
+  height: 2.1555rem;
+  line-height: 2.1555rem;
+}
+.ModifyAddress .ModifyCont li .Cont {
+  margin-left: 1.466rem;
+}
+.ModifyAddress .ModifyCont li .Cont input {
+  border: none;
+  height: 1.188rem;
+  width: 9.222rem;
+  margin-top: .5rem;
+  font-size: 0.666rem;
+}
+/* Pay method */
+.method {
+  /* bottom submit */
+}
+.method .submitOrder {
+  margin-top: 1.1rem;
+}
+.method .submitOrder a {
+  padding: .44rem 0;
+  font-size: 0.8rem;
+}
+.method .methodInfo {
+  background: #fff;
+}
+.method .methodInfo .title {
+  height: 1.666rem;
+  line-height: 1.666rem;
+  color: #aaa;
+}
+.method .methodInfo .active {
+  background: url("../css/img/dagou.png") no-repeat 0.666rem center !important;
+  -webkit-background-size: 0.9111rem !important;
+}
+.method .methodInfo li {
+  border-top: 1px solid #ededed;
+  background: #fff;
+  height: 2.1777rem;
+  padding-left: 2.2222rem;
+  line-height: 2.1777rem;
+  background: url("../css/img/nogou.png") no-repeat 0.666rem center;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem;
+  font-size: 0.666rem;
+  color: #333;
 }
 
 /* productCont page */
@@ -2018,6 +2102,9 @@ select {
 }
 .noborder {
   border: none !important;
+}
+.noborR {
+  border-right: none !important;
 }
 .mt30 {
   margin-top: 0.666rem!important;
