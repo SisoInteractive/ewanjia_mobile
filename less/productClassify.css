@@ -1,3 +1,4 @@
+/*通用变量*/
 /* 分类 Classify */
 .Classify {
   background: #fff;
@@ -269,7 +270,7 @@
   margin-top: 1.1rem;
 }
 .myOrder .submitOrder a {
-  padding: .44rem 0;
+  padding: .43rem 0;
   font-size: 0.8rem;
 }
 .myOrder .sum-owing {
@@ -440,4 +441,38 @@
   background-size: 0.9111rem;
   font-size: 0.666rem;
   color: #333;
+}
+/* AccomplishCont */
+.AccomplishCont {
+  background: #fff;
+  vertical-align: middle;
+}
+.AccomplishCont p {
+  padding: 0.05rem 0.666rem;
+  color: #aaa;
+}
+.AccomplishCont p span {
+  color: #333!important;
+  padding-left: .16rem;
+}
+.AccomplishCont .p1 {
+  color: #78b135;
+}
+.AccomplishCont .p1 img {
+  width: 1.266rem;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  padding-right: .38rem;
+}
+.AccomplishCont .ft {
+  padding-top: .3rem;
+  margin-top: .4rem;
+  padding-bottom: .5rem;
+}
+.Accomplish .submit {
+  margin-top: 0.9333rem;
+}
+.Accomplish .submit a {
+  padding: 0.43rem 0 !important;
 }

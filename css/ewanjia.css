@@ -681,6 +681,7 @@
   padding-bottom: .2rem!important;
 }
 
+/*通用变量*/
 /* 分类 Classify */
 .Classify {
   background: #fff;
@@ -1123,6 +1124,40 @@
   background-size: 0.9111rem;
   font-size: 0.666rem;
   color: #333;
+}
+/* AccomplishCont */
+.AccomplishCont {
+  background: #fff;
+  vertical-align: middle;
+}
+.AccomplishCont p {
+  padding: 0.05rem 0.666rem;
+  color: #aaa;
+}
+.AccomplishCont p span {
+  color: #333!important;
+  padding-left: .16rem;
+}
+.AccomplishCont .p1 {
+  color: #78b135;
+}
+.AccomplishCont .p1 img {
+  width: 1.266rem;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  padding-right: .38rem;
+}
+.AccomplishCont .ft {
+  padding-top: .3rem;
+  margin-top: .4rem;
+  padding-bottom: .5rem;
+}
+.Accomplish .submit {
+  margin-top: 0.9333rem;
+}
+.Accomplish .submit a {
+  padding: 0.9333rem 0 !important;
 }
 
 /* productCont page */
@@ -1985,52 +2020,6 @@ select {
   position: relative;
   top: -0.05rem;
 }
-.fl-l {
-  float: left ;
-}
-.fl-r {
-  float: right;
-}
-.fz14 {
-  font-size: 0.3111rem!important;
-}
-.fz16 {
-  font-size: 0.355rem!important;
-  color: #666666;
-}
-.fz18 {
-  font-size: 0.4rem!important;
-}
-.fz20 {
-  font-size: 0.444rem!important;
-}
-.fz22 {
-  font-size: 0.4888rem!important;
-}
-.fz24 {
-  font-size: 0.5333rem!important;
-}
-.fz26 {
-  font-size: 0.5777rem!important;
-}
-.fz28 {
-  font-size: 0.6222rem!important;
-}
-.fz30 {
-  font-size: 0.6666rem!important;
-}
-.fz34 {
-  font-size: 0.7555rem!important;
-}
-.fz40 {
-  font-size: 0.8888rem!important;
-}
-.fz50 {
-  font-size: 1.1111rem!important;
-}
-.fz52 {
-  font-size: 1.1555rem!important;
-}
 .renQ {
   color: #f3484a!important;
 }
@@ -2074,6 +2063,7 @@ select {
   border-left: 1px solid #cb2829;
   border-right: 1px #cb2829 solid;
   color: #fff;
+  font-size: 0.8rem;
 }
 .btnW100:active {
   color: #fff;
@@ -2155,3 +2145,50 @@ select {
 .BgG {
   background-color: #78b235;
 }
+.fl-l {
+  float: left ;
+}
+.fl-r {
+  float: right;
+}
+.fz14 {
+  font-size: 0.3111rem!important;
+}
+.fz16 {
+  font-size: 0.355rem!important;
+  color: #666666;
+}
+.fz18 {
+  font-size: 0.4rem!important;
+}
+.fz20 {
+  font-size: 0.444rem!important;
+}
+.fz22 {
+  font-size: 0.4888rem!important;
+}
+.fz24 {
+  font-size: 0.5333rem!important;
+}
+.fz26 {
+  font-size: 0.5777rem!important;
+}
+.fz28 {
+  font-size: 0.6222rem!important;
+}
+.fz30 {
+  font-size: 0.6666rem!important;
+}
+.fz34 {
+  font-size: 0.7555rem!important;
+}
+.fz40 {
+  font-size: 0.8888rem!important;
+}
+.fz50 {
+  font-size: 1.1111rem!important;
+}
+.fz52 {
+  font-size: 1.1555rem!important;
+}
+/*通用变量*/

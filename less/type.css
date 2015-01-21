@@ -507,52 +507,6 @@ select {
   position: relative;
   top: -0.05rem;
 }
-.fl-l {
-  float: left ;
-}
-.fl-r {
-  float: right;
-}
-.fz14 {
-  font-size: 0.3111rem!important;
-}
-.fz16 {
-  font-size: 0.355rem!important;
-  color: #666666;
-}
-.fz18 {
-  font-size: 0.4rem!important;
-}
-.fz20 {
-  font-size: 0.444rem!important;
-}
-.fz22 {
-  font-size: 0.4888rem!important;
-}
-.fz24 {
-  font-size: 0.5333rem!important;
-}
-.fz26 {
-  font-size: 0.5777rem!important;
-}
-.fz28 {
-  font-size: 0.6222rem!important;
-}
-.fz30 {
-  font-size: 0.6666rem!important;
-}
-.fz34 {
-  font-size: 0.7555rem!important;
-}
-.fz40 {
-  font-size: 0.8888rem!important;
-}
-.fz50 {
-  font-size: 1.1111rem!important;
-}
-.fz52 {
-  font-size: 1.1555rem!important;
-}
 .renQ {
   color: #f3484a!important;
 }
@@ -596,6 +550,7 @@ select {
   border-left: 1px solid #cb2829;
   border-right: 1px #cb2829 solid;
   color: #fff;
+  font-size: 0.8rem;
 }
 .btnW100:active {
   color: #fff;
@@ -677,3 +632,50 @@ select {
 .BgG {
   background-color: #78b235;
 }
+.fl-l {
+  float: left ;
+}
+.fl-r {
+  float: right;
+}
+.fz14 {
+  font-size: 0.3111rem!important;
+}
+.fz16 {
+  font-size: 0.355rem!important;
+  color: #666666;
+}
+.fz18 {
+  font-size: 0.4rem!important;
+}
+.fz20 {
+  font-size: 0.444rem!important;
+}
+.fz22 {
+  font-size: 0.4888rem!important;
+}
+.fz24 {
+  font-size: 0.5333rem!important;
+}
+.fz26 {
+  font-size: 0.5777rem!important;
+}
+.fz28 {
+  font-size: 0.6222rem!important;
+}
+.fz30 {
+  font-size: 0.6666rem!important;
+}
+.fz34 {
+  font-size: 0.7555rem!important;
+}
+.fz40 {
+  font-size: 0.8888rem!important;
+}
+.fz50 {
+  font-size: 1.1111rem!important;
+}
+.fz52 {
+  font-size: 1.1555rem!important;
+}
+/*通用变量*/
