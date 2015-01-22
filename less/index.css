@@ -75,9 +75,10 @@
 }
 .W-nav .search {
   margin-left: 0.911rem;
-  margin-top: 0.42rem;
+  margin-top: 0.47rem;
   display: block;
   float: left;
+  color: #333;
 }
 .W-nav .search .searchInput {
   border: 1px solid #ccc;
