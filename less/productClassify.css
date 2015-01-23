@@ -442,6 +442,9 @@
   font-size: 0.666rem;
   color: #333;
 }
+.method .methodInfo li span {
+  padding-left: 0.5333rem;
+}
 /* AccomplishCont */
 .AccomplishCont {
   background: #fff;
