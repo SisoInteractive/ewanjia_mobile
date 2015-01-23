@@ -1135,6 +1135,9 @@
   font-size: 0.666rem;
   color: #333;
 }
+.method .methodInfo li span {
+  padding-left: 0.5333rem;
+}
 /* AccomplishCont */
 .AccomplishCont {
   background: #fff;
@@ -1457,7 +1460,6 @@
 /* end themeInput */
 /* alert module */
 .alert-module {
-  border-bottom: 1px solid #eee;
   background: #fff;
 }
 .alert-module .alertOk {
@@ -1474,11 +1476,281 @@
 .ewanjlink {
   display: -webkit-box;
   background: #fff;
-  width: 100%;
+  font-size: 0.6666rem;
+  padding-top: 0.6666rem;
+  color: #aaa;
+  padding-bottom: 0.6666rem;
 }
 .ewanjlink li {
+  font-size: 0.6666rem;
   text-align: center;
   -webkit-box-flex: 1;
+}
+.ewanjlink li a {
+  color: #767676;
+}
+.set-password {
+  background: #fff;
+}
+/* myEwanjia */
+.myEwanjia .userInfo {
+  /* UserOrder  */
+}
+.myEwanjia .userInfo .userInfoHd {
+  background: url("../css/img/myuserBg.png") no-repeat;
+  -webkit-background-size: 16rem;
+  background-size: 16rem;
+  height: 4.2666rem;
+  text-align: center;
+}
+.myEwanjia .userInfo .userInfoHd .userhead {
+  width: 3.0222rem ;
+  height: 3.0222rem;
+  vertical-align: middle;
+  border-radius: 2rem;
+  margin-top: 0.6222rem;
+}
+.myEwanjia .userInfo .userInfoHd .name {
+  position: relative;
+  top: 0.46rem;
+  color: #fff;
+  left: .2rem;
+}
+.myEwanjia .userInfo .userInfoBd {
+  background: #fff;
+}
+.myEwanjia .userInfo .userInfoBd li {
+  width: 33%;
+  float: left;
+  text-align: center;
+  height: 5.333rem;
+  display: block;
+  border-right: 1px #ededed solid;
+  border-bottom: 1px #ededed solid;
+}
+.myEwanjia .userInfo .userInfoBd li .iconUser {
+  width: 1.355rem;
+  height: 1.488rem;
+  margin: 0 auto;
+  background: url("../css/img/userinfo.png") no-repeat;
+  -webkit-background-size: 4.555rem;
+  background-size: 4.555rem;
+  margin-top: 1.311rem;
+}
+.myEwanjia .userInfo .userInfoBd li .MyCollect {
+  width: 1.475rem;
+  background-position: -1.46rem 0rem;
+}
+.myEwanjia .userInfo .userInfoBd li .MyComment {
+  width: 1.455rem;
+  height: 1.488rem;
+  background-position: -3.2rem -0.1rem;
+}
+.myEwanjia .userInfo .userInfoBd li .SafetyCenter {
+  background-position: 0rem -1.7rem;
+}
+.myEwanjia .userInfo .userInfoBd li .favorableJ {
+  background-position: -1.52rem -1.7rem;
+}
+.myEwanjia .userInfo .UserOrder .UserOrderHd {
+  background: #fff;
+  font-size: 0.6666rem;
+  color: #555;
+}
+.myEwanjia .userInfo .UserOrder .UserOrderHd p {
+  margin: 0 0.6666rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding: .3rem 0;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list {
+  background: #fff;
+  padding: 0 .65rem !important;
+  margin-bottom: 0.2222rem;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .hd {
+  font-size: 0.5377rem;
+  color: #777;
+  padding: .2rem 0;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .bd img {
+  width: 2.177rem;
+  height: 2.177rem;
+  border: 1px solid #e6e6e6;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .sum {
+  font-size: 0.5377rem;
+  color: #777;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .sum .Piece {
+  margin-top: .5rem;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .ft p {
+  margin-top: .4rem;
+  font-size: 0.5333rem;
+  padding-bottom: .4rem;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .ft a {
+  border: 1px solid #d4d4d4;
+  padding: 0.2rem 0rem;
+  width: 3.111rem;
+  display: inline-block;
+  text-align: center;
+  margin-left: .3rem;
+  font-size: 0.4888rem !important;
+}
+.myEwanjia .userInfo .UserOrder .Orderlist .list .ft .active {
+  color: #c8c8c8!important;
+}
+/* select address  */
+.select-address .addressInfo {
+  background: #fff;
+}
+.select-address .addressInfo li {
+  overflow: hidden;
+  padding: 0 0.6666rem;
+  border-bottom: 1px solid #e7e7e7;
+  height: 2.1555rem;
+  font-size: 0.6666rem;
+  line-height: 2.1555rem;
+}
+/* myEwanjiaOrder */
+.myEwanjiaOrder .OrderInfo {
+  font-size: 0.5377rem;
+}
+.myEwanjiaOrder .OrderInfo p {
+  line-height: .9rem;
+}
+.myEwanjiaOrder .OrderInfo .btn {
+  margin-top: 0.6666rem;
+}
+.myEwanjiaOrder .OrderInfo .btn a {
+  width: 50%;
+  float: left;
+  height: 1.555rem;
+  line-height: 1.555rem;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+}
+.myEwanjiaOrder .OrderInfo .btn .active {
+  background: #e04040;
+  color: #fff;
+}
+.myEwanjiaOrder .ProductCont {
+  margin-top: 0.6666rem;
+  background: #fff;
+}
+.myEwanjiaOrder .ProductCont img {
+  width: 3.955rem;
+  height: 3.5111rem;
+  border: 1px solid #e4e4e4;
+  display: block;
+  float: left;
+}
+.myEwanjiaOrder .ProductCont li {
+  padding: 0.6666rem 0;
+}
+.myEwanjiaOrder .ProductCont li .cor999 {
+  margin-top: 0!important;
+}
+.myEwanjiaOrder .ProductCont li p {
+  padding-left: 4.455rem;
+  line-height: .7rem;
+  margin-top: .3rem;
+}
+.myEwanjiaOrder .Zkmore {
+  background: #fff;
+  padding: 0.6666rem;
+}
+.myEwanjiaOrder .Zkmore p {
+  text-align: center;
+  color: #e04040;
+  border: 1px #e04040 solid;
+  height: 1.4666rem;
+  line-height: 1.4666rem;
+  font-size: 0.5333rem;
+}
+.myEwanjiaOrder .Zkmore p i {
+  font-size: 0.5333rem;
+  color: #e04040;
+  margin-left: .3rem;
+}
+.myEwanjiaOrder .userInfo {
+  margin-top: 0.6666rem;
+  margin-bottom: 0.6666rem;
+  background: #fff;
+}
+.myEwanjiaOrder .userInfo .ft {
+  padding-bottom: 0.5333rem;
+  padding-left: 0.5333rem;
+  padding-right: 0.5333rem;
+}
+.myEwanjiaOrder .userInfo .borImg {
+  width: 100%;
+  display: block;
+}
+.myEwanjiaOrder .userInfo .name {
+  height: 1.5333rem;
+  width: 4.977rem;
+  display: inline-block;
+  font-size: 0.5377rem;
+  color: #6b6b6b;
+  line-height: 1.5rem;
+}
+.myEwanjiaOrder .userInfo .name i {
+  height: 1.5333rem;
+  display: inline-block;
+  margin-right: .3rem;
+  width: 0.753rem;
+  background: url("../css/img/myWjia.png") no-repeat center;
+  -webkit-background-size: 0.7333rem;
+  background-size: 0.7333rem;
+}
+.myEwanjiaOrder .userInfo .phone {
+  height: 1.5333rem;
+  width: 8.666rem;
+  display: inline-block;
+  font-size: 0.5377rem;
+  color: #6b6b6b;
+  line-height: 1.5rem;
+}
+.myEwanjiaOrder .userInfo .phone i {
+  height: 1.5333rem;
+  display: inline-block;
+  margin-right: .3rem;
+  width: 0.788rem;
+  background: url("../css/img/phone.png") no-repeat center;
+  -webkit-background-size: 0.688rem;
+  background-size: 0.688rem;
+}
+.myEwanjiaOrder .userInfo .cont {
+  padding-top: 0.5333rem;
+  padding-left: 0.5333rem;
+  padding-right: 0.5333rem;
+}
+.myEwanjiaOrder .payment-terms {
+  padding: 0.6666rem;
+  background: #fff;
+}
+.myEwanjiaOrder .payment-terms p {
+  line-height: 1rem;
+}
+.myEwanjiaOrder .message {
+  background: #fff;
+  margin-top: 0.2222rem;
+  padding-bottom: 0.7555rem;
+}
+.myEwanjiaOrder .message h4 {
+  padding: 0.2222rem 0;
+  border-bottom: 1px solid #ededed;
+  font-size: 0.6666rem;
+}
+.myEwanjiaOrder .message p {
+  line-height: .6rem;
+  padding-top: 0.4444rem;
+}
+.myEwanjiaOrder .message p span {
+  color: #333;
 }
 
 /* productCont page */
