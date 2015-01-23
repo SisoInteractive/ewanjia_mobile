@@ -796,3 +796,66 @@
 .set-password {
   background: #fff;
 }
+/* myEwanjia */
+.myEwanjia .userInfo .userInfoHd {
+  background: url("../css/img/myuserBg.png") no-repeat;
+  -webkit-background-size: 16rem;
+  background-size: 16rem;
+  height: 4.2666rem;
+  text-align: center;
+}
+.myEwanjia .userInfo .userInfoHd .userhead {
+  width: 3.0222rem ;
+  height: 3.0222rem;
+  vertical-align: middle;
+  border-radius: 2rem;
+  margin-top: 0.6222rem;
+}
+.myEwanjia .userInfo .userInfoHd .name {
+  position: relative;
+  top: 0.46rem;
+  color: #fff;
+  left: .2rem;
+}
+.myEwanjia .userInfo .userInfoBd li {
+  width: 33%;
+  float: left;
+  text-align: center;
+  height: 5.333rem;
+  display: block;
+}
+.myEwanjia .userInfo .userInfoBd li .iconUser {
+  width: 1.355rem;
+  height: 1.488rem;
+  margin: 0 auto;
+  background: url("../css/img/userinfo.png") no-repeat;
+  -webkit-background-size: 4.555rem;
+  background-size: 4.555rem;
+}
+.myEwanjia .userInfo .userInfoBd li .MyCollect {
+  width: 1.455rem;
+  background-position: -1.46rem 0rem;
+}
+.myEwanjia .userInfo .userInfoBd li .MyComment {
+  width: 1.455rem;
+  height: 1.488rem;
+  background-position: -3.2rem -0.1rem;
+}
+.myEwanjia .userInfo .userInfoBd li .SafetyCenter {
+  background-position: 0rem -1.7rem;
+}
+.myEwanjia .userInfo .userInfoBd li .favorableJ {
+  background-position: -1.52rem -1.7rem;
+}
+/* select address  */
+.select-address .addressInfo {
+  background: #fff;
+}
+.select-address .addressInfo li {
+  overflow: hidden;
+  padding: 0 0.6666rem;
+  border-bottom: 1px solid #e7e7e7;
+  height: 2.1555rem;
+  font-size: 0.6666rem;
+  line-height: 2.1555rem;
+}
