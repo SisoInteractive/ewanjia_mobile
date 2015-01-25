@@ -380,6 +380,7 @@
   background: url("../css/img/navBg.png");
   position: relative;
   z-index: 33;
+  padding: 0 0 0 0.444rem!important;
 }
 .W-nav .Logo {
   width: 4.1rem;
@@ -399,7 +400,7 @@
 .W-nav .more {
   display: block;
   float: right;
-  width: 2.322rem;
+  width: 2.6444rem;
   border-left: 1px solid #ebebeb;
   height: 2rem;
   line-height: 1.7rem;
@@ -408,8 +409,40 @@
 .W-nav .more img {
   width: 1.066rem;
 }
-.W-nav .renxin {
+.W-nav .My-edit {
+  display: block;
+  float: right;
   width: 2.322rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  line-height: 1.7rem;
+  text-align: center;
+  position: relative;
+  top: 1px;
+}
+.W-nav .My-edit i {
+  font-size: 1.15555rem;
+  color: #999;
+}
+.W-nav .My-delete {
+  display: block;
+  float: right;
+  width: 2.6444rem;
+  border-left: 1px solid #ebebeb;
+  height: 2rem;
+  background: #e14041;
+  line-height: 1.7rem;
+  text-align: center;
+  position: relative;
+}
+.W-nav .My-delete i {
+  position: relative;
+  top: .1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+.W-nav .renxin {
+  width: 2.6444rem;
   height: 2rem;
   display: block;
   float: right;
@@ -456,7 +489,8 @@
   display: block;
   float: right;
   border: none;
-  width: 2.622rem;
+  width: 2.6444rem;
+  m-right: .3rem;
   background: url("../css/img/navSbg.png") no-repeat right center;
   background-size: 0.244rem;
   border-left: 1px solid #ebebeb;
@@ -1027,6 +1061,11 @@
   background-size: 1.311rem !important;
   color: #e04040!important;
 }
+.myAddress .default .listR {
+  background: none !important;
+  color: #e04040!important;
+  line-height: 3.555rem !important;
+}
 .myAddress .listHd {
   height: 3.555rem;
 }
@@ -1093,12 +1132,38 @@
 .ModifyAddress .ModifyCont li .Cont {
   margin-left: 1.466rem;
 }
+.ModifyAddress .ModifyCont li .Cont a {
+  font-size: 0.666rem;
+}
 .ModifyAddress .ModifyCont li .Cont input {
   border: none;
   height: 1.188rem;
   width: 9.222rem;
   margin-top: .5rem;
   font-size: 0.666rem;
+}
+.ModifyAddress .ModifyCont li .Cont .themeradio {
+  width: 0.9111rem;
+  height: 0.9111rem;
+  display: inline-block;
+  background: url("../css/img/nogou.png") no-repeat;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem ;
+  position: relative;
+  top: .1rem;
+}
+.ModifyAddress .ModifyCont li .Cont .themeradio:checked {
+  width: 0.9111rem;
+  height: 0.9111rem;
+  display: inline-block;
+  background: url("../css/img/dagou.png") no-repeat;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem ;
+}
+.ModifyAddress .ModifyCont li .Cont label {
+  font-size: 0.7111rem;
+  display: inline-block;
+  margin-right: 1rem;
 }
 /* Pay method */
 .method {
@@ -1751,6 +1816,395 @@
 }
 .myEwanjiaOrder .message p span {
   color: #333;
+}
+/* order Trace */
+.orderTrace .orderTraceCont {
+  margin-top: 0.6666rem;
+  background: #fff;
+}
+.orderTrace .orderTraceCont h4 {
+  font-size: 0.6666rem;
+  color: #333;
+  height: 1.866rem;
+  line-height: 1.866rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+@-webkit-keyframes glow {
+  0% {
+    border-color: #d5e6c1;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 12px #bfdaa0, 0 0 18px #bfdaa0;
+    border-color: #bfdaa0;
+  }
+}
+.orderTrace .orderTraceCont .Contlist {
+  margin: 0 0.6666rem 0 1.1111rem;
+  background: #fff;
+  /* list fitsr */
+  /* list  */
+}
+.orderTrace .orderTraceCont .Contlist .first p {
+  color: #78b135;
+}
+.orderTrace .orderTraceCont .Contlist .first span {
+  bottom: 0;
+  height: 1.411rem;
+}
+.orderTrace .orderTraceCont .Contlist .first span i {
+  width: 0.6222rem;
+  height: 0.6222rem;
+  background: #78b135;
+  left: -0.39rem;
+  top: 0;
+  border: 0.0888rem solid #bfdaa0;
+  border-radius: .5rem;
+  -webkit-animation-name: glow;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+}
+.orderTrace .orderTraceCont .Contlist .last span {
+  top: 0;
+  height: 1.11rem;
+}
+.orderTrace .orderTraceCont .Contlist .last span i {
+  position: absolute;
+  top: 1.41rem;
+  border-radius: .5rem;
+}
+.orderTrace .orderTraceCont .Contlist .last .p2 {
+  border-bottom: none;
+}
+.orderTrace .orderTraceCont .Contlist li {
+  height: 2.811rem;
+  display: block;
+  position: relative;
+}
+.orderTrace .orderTraceCont .Contlist li span {
+  position: absolute;
+  border-right: 1px solid #e6e6e6;
+  display: block;
+  height: 2.811rem;
+  -webkit-background-size: 0.4rem;
+  background-size: 0.4rem;
+}
+.orderTrace .orderTraceCont .Contlist li span i {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #dddddd;
+  position: absolute;
+  border-radius: .4rem;
+  left: -0.18rem;
+  top: 50%;
+  margin-top: -0.5377rem;
+}
+.orderTrace .orderTraceCont .Contlist li p {
+  margin-left: 1.1555rem;
+  width: 92%;
+  color: #aaa;
+}
+.orderTrace .orderTraceCont .Contlist li .p1 {
+  display: block;
+  float: left;
+  margin-top: .6rem;
+  font-size: 0.5377rem;
+}
+.orderTrace .orderTraceCont .Contlist li .p2 {
+  font-size: 0.4888rem;
+  display: block;
+  float: left;
+  line-height: .4rem;
+  padding-bottom: 0.7555rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+/* Information */
+.Information {
+  position: relative;
+  font-size: 0.5377rem;
+  background: #fff;
+  padding: 0.6666rem;
+}
+.Information .userhead {
+  width: 2.8rem;
+  height: 2.8rem;
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+}
+.Information p {
+  margin-top: 0.0888rem;
+}
+.Information .btna {
+  border: 1px solid #d4d4d4;
+  width: 2.666rem;
+  padding: 0rem 0;
+  text-align: center;
+  font-size: 0.5333rem;
+  display: inline-block;
+  color: #666;
+  background: #fefefe;
+  margin-left: .3rem;
+}
+/* themeDiv */
+.themeDiv {
+  height: 1.955rem;
+  line-height: 1.8rem;
+  font-size: 0.6666rem;
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+}
+.themeDiv .fl-r {
+  color: #999;
+}
+/* theme radio */
+.themeradio {
+  width: 0.9111rem;
+  height: 0.9111rem;
+  display: inline-block;
+  background: url("../css/img/nogou.png") no-repeat;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem ;
+  border: none !important;
+}
+.themeradio:checked {
+  width: 0.9111rem;
+  height: 0.9111rem;
+  display: inline-block;
+  background: url("../css/img/dagou.png") no-repeat;
+  -webkit-background-size: 0.9111rem;
+  background-size: 0.9111rem ;
+  border: none !important;
+}
+/*  */
+.security-center {
+  /* bd */
+}
+.security-center .hd .tiao {
+  width: 10.155rem;
+  height: 0.2rem;
+  background: #e3e3e3;
+  display: inline-block;
+  border-radius: .2rem;
+  position: relative;
+  vertical-align: middle;
+}
+.security-center .hd .tiao em {
+  background: #e14041;
+  position: absolute;
+  height: 0.2rem;
+  left: 0;
+  border-radius: .2em;
+}
+.security-center .hd .tiao em i {
+  position: absolute;
+  right: -0.2rem;
+  font-size: 0.5377rem;
+  color: #e14041;
+}
+.security-center .hd .p3 {
+  border-top: 1px solid #dedede;
+  padding: .3rem 0;
+  margin-top: .6rem;
+}
+.security-center .bd {
+  background: #fff;
+}
+.security-center .bd .list {
+  font-size: 0.6666rem;
+  padding: 0.6rem 0.6666rem;
+  padding-left: 2.177rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.security-center .bd .list span {
+  font-size: 0.4888rem;
+  color: #aaa;
+}
+.security-center .bd .list i {
+  padding-left: .2rem;
+}
+.security-center .password {
+  background: url("../css/img/passwordIcon.png") no-repeat 1rem center;
+  -webkit-background-size: 0.688rem;
+  background-size: 0.688rem;
+}
+.security-center .email {
+  background: url("../css/img/emailIcon.png") no-repeat 0.83rem center;
+  -webkit-background-size: 1.044rem;
+  background-size: 1.044rem;
+}
+.security-center .phone {
+  background: url("../css/img/phone.png") no-repeat 1rem center;
+  -webkit-background-size: 0.688rem;
+  background-size: 0.688rem;
+}
+/* my evaluate */
+.myevaluate li {
+  background: #fff;
+  padding: 0 0.6666rem;
+  position: relative;
+}
+.myevaluate .xinx {
+  padding-top: .3rem;
+}
+.myevaluate p {
+  padding-right: 1.3rem;
+  line-height: .8rem;
+}
+.myevaluate .p1 {
+  padding-top: 0.4444rem;
+  padding-bottom: 0.4444rem;
+}
+.myevaluate .product {
+  padding-top: 0.3rem;
+  padding-bottom: 0.6666rem;
+}
+.myevaluate .product p {
+  padding-left: 3.2rem;
+  font-size: 0.5333rem;
+}
+.myevaluate .product img {
+  display: block;
+  float: left;
+  width: 2.6222rem;
+  height: 2.6222rem;
+  border: 1px solid #e6e6e6;
+}
+/* 点击删除后 */
+.delete-Actve li {
+  background: url("../css/img/nogou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+  overflow: hidden;
+}
+.delete-Actve li P {
+  -webkit-transform: translateX(1.5rem);
+}
+.delete-Actve li .product {
+  -webkit-transform: translateX(1.5rem);
+}
+.delete-Actve li .product p {
+  -webkit-transform: translateX(0rem);
+}
+.delete-Actve .active {
+  background: url("../css/img/dagou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+}
+/* evaluateXq */
+.evaluateXq {
+  padding: 0 0.6666rem;
+  background: #fff;
+}
+.evaluateXq p {
+  padding-right: 0;
+}
+.evaluateXq .product {
+  padding-top: 1rem;
+}
+.evaluateXq .xinx span {
+  font-size: 0.5377rem;
+  color: #333;
+}
+.evaluateXq .evaluateCont {
+  padding-top: .3rem;
+  overflow: hidden;
+  font-size: 0.5377rem;
+  color: #333;
+  padding-bottom: 1rem;
+}
+.evaluateXq .evaluateCont textarea {
+  vertical-align: top;
+  width: 12.66rem;
+  border: 1px #d3d3d3 solid;
+  height: 5.111rem;
+}
+.evaluateXq .evaluateCont .cont {
+  margin-top: 0rem;
+  margin-left: .2rem;
+  width: 12.222rem;
+  font-size: 0.5377rem;
+  color: #aaa;
+}
+.evaluateXq .imglist {
+  font-size: 0.5377rem;
+  overflow: hidden;
+}
+.evaluateXq .imglist img {
+  width: 2.622rem;
+  height: 2.622rem;
+  vertical-align: top;
+  border: 1px solid #e4e4e4;
+  margin-bottom: .2rem;
+}
+.evaluateXq .imglist .cont {
+  margin-left: .2rem;
+  margin-top: .2rem;
+  width: 12.222rem;
+  font-size: 0.5377rem;
+  color: #333;
+}
+/* 我的收藏 deleteSC 点击删除 */
+.deleteSC .Pcont {
+  position: relative;
+  -webkit-transform: translateX(2.222rem);
+}
+.deleteSC li {
+  background: url("../css/img/nogou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+  overflow: hidden;
+}
+.deleteSC .active {
+  background: url("../css/img/dagou.png") 0.6666rem center no-repeat !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+}
+/* 我的积分 Integral */
+.Integral p {
+  color: #555;
+}
+.Integral .now {
+  color: #e24d4d;
+  position: relative;
+  top: 0.2rem;
+}
+.Integral .about-of {
+  color: #333;
+  font-size: 1.1555rem;
+}
+.Integral .time {
+  float: right;
+  color: #999;
+  font-size: 0.4888rem;
+  margin-top: 0.8rem;
+  margin-right: .2rem;
+}
+.Integral .Integral-detail {
+  margin-top: 0.8888rem;
+  background: #fff;
+}
+.Integral .Integral-detail li {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid #e5e5e6;
+}
+.Integral .Integral-detail p {
+  font-size: 0.5333rem;
+  overflow: hidden;
+  margin-top: .3rem;
+}
+.Integral .Integral-detail .value {
+  color: #e14041;
+  font-size: 0.6666rem;
+}
+.Integral .Integral-detail .span2 {
+  width: 11.22rem;
+  text-align: right;
+}
+.Integral .Integral-detail .p3 {
+  margin-top: .5rem;
 }
 
 /* productCont page */
@@ -2631,19 +3085,19 @@ select {
   color: #e14041!important;
 }
 .cor999 {
-  color: #999;
+  color: #999 !important;
 }
 .cor555 {
-  color: #555;
+  color: #555 !important;
 }
 .cor333 {
-  color: #333;
+  color: #333 !important;
 }
 .corbbb {
-  color: #bbb;
+  color: #bbb !important;
 }
 .coraaa {
-  color: #aaa;
+  color: #aaa !important;
 }
 .Cgray {
   color: #aaa!important;
@@ -2714,6 +3168,9 @@ select {
 }
 .noborR {
   border-right: none !important;
+}
+.nobg {
+  background: none!important;
 }
 .mt30 {
   margin-top: 0.666rem!important;
@@ -2803,6 +3260,9 @@ select {
 .fz34 {
   font-size: 0.7555rem!important;
 }
+.fz36 {
+  font-size: 0.8rem   !important;
+}
 .fz40 {
   font-size: 0.8888rem!important;
 }
@@ -2813,3 +3273,13 @@ select {
   font-size: 1.1555rem!important;
 }
 /*通用变量*/
+/*
+
+*/
+* {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}

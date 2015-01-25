@@ -525,19 +525,19 @@ select {
   color: #e14041!important;
 }
 .cor999 {
-  color: #999;
+  color: #999 !important;
 }
 .cor555 {
-  color: #555;
+  color: #555 !important;
 }
 .cor333 {
-  color: #333;
+  color: #333 !important;
 }
 .corbbb {
-  color: #bbb;
+  color: #bbb !important;
 }
 .coraaa {
-  color: #aaa;
+  color: #aaa !important;
 }
 .Cgray {
   color: #aaa!important;
@@ -608,6 +608,9 @@ select {
 }
 .noborR {
   border-right: none !important;
+}
+.nobg {
+  background: none!important;
 }
 .mt30 {
   margin-top: 0.666rem!important;
@@ -710,3 +713,13 @@ select {
   font-size: 1.1555rem!important;
 }
 /*通用变量*/
+/*
+
+*/
+* {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}

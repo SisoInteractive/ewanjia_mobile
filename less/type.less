@@ -437,11 +437,11 @@ select{
 
 .renQ{ color: #f3484a!important;}
 .redS{ color: #e14041!important; }
-.cor999{ color: #999; }
-.cor555{ color: #555; }
-.cor333{ color: #333; }
-.corbbb{ color: #bbb; }
-.coraaa{ color: #aaa; }
+.cor999{ color: #999 !important; }
+.cor555{ color: #555 !important; }
+.cor333{ color: #333 !important; }
+.corbbb{ color: #bbb !important; }
+.coraaa{ color: #aaa !important; }
 .Cgray{ color: #aaa!important; }
 
 .width100{ width: 100%;}
@@ -492,6 +492,7 @@ select{
 .originalPrice{ text-decoration:line-through}
 .noborder{border: none !important;}
 .noborR{border-right: none !important}
+.nobg{background:none!important;}
 
 .mt30{ margin-top: 0.666rem!important;}
 .mt20{ margin-top: 0.444rem!important;}
@@ -552,11 +553,14 @@ select{
 @unit50:1.1111rem;
 @unit52:1.1555rem;
 /*
--webkit-transition: all .25s;
--moz-transition: all .25s;
--ms-transition: all .25s;
--o-transition: all .25s;
-transition: all .25s;
+
 */
+*{
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}
 
 

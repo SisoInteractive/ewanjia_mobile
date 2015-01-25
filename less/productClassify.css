@@ -1239,6 +1239,7 @@
   background: url("../css/img/nogou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
   background-size: 0.9111rem ;
+  border: none !important;
 }
 .themeradio:checked {
   width: 0.9111rem;
@@ -1247,6 +1248,7 @@
   background: url("../css/img/dagou.png") no-repeat;
   -webkit-background-size: 0.9111rem;
   background-size: 0.9111rem ;
+  border: none !important;
 }
 /*  */
 .security-center {
@@ -1309,4 +1311,171 @@
   background: url("../css/img/phone.png") no-repeat 1rem center;
   -webkit-background-size: 0.688rem;
   background-size: 0.688rem;
+}
+/* my evaluate */
+.myevaluate li {
+  background: #fff;
+  padding: 0 0.6666rem;
+  position: relative;
+}
+.myevaluate .xinx {
+  padding-top: .3rem;
+}
+.myevaluate p {
+  padding-right: 1.3rem;
+  line-height: .8rem;
+}
+.myevaluate .p1 {
+  padding-top: 0.4444rem;
+  padding-bottom: 0.4444rem;
+}
+.myevaluate .product {
+  padding-top: 0.3rem;
+  padding-bottom: 0.6666rem;
+}
+.myevaluate .product p {
+  padding-left: 3.2rem;
+  font-size: 0.5333rem;
+}
+.myevaluate .product img {
+  display: block;
+  float: left;
+  width: 2.6222rem;
+  height: 2.6222rem;
+  border: 1px solid #e6e6e6;
+}
+/* 点击删除后 */
+.delete-Actve li {
+  background: url("../css/img/nogou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+  overflow: hidden;
+}
+.delete-Actve li P {
+  -webkit-transform: translateX(1.5rem);
+}
+.delete-Actve li .product {
+  -webkit-transform: translateX(1.5rem);
+}
+.delete-Actve li .product p {
+  -webkit-transform: translateX(0rem);
+}
+.delete-Actve .active {
+  background: url("../css/img/dagou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+}
+/* evaluateXq */
+.evaluateXq {
+  padding: 0 0.6666rem;
+  background: #fff;
+}
+.evaluateXq p {
+  padding-right: 0;
+}
+.evaluateXq .product {
+  padding-top: 1rem;
+}
+.evaluateXq .xinx span {
+  font-size: 0.5377rem;
+  color: #333;
+}
+.evaluateXq .evaluateCont {
+  padding-top: .3rem;
+  overflow: hidden;
+  font-size: 0.5377rem;
+  color: #333;
+  padding-bottom: 1rem;
+}
+.evaluateXq .evaluateCont textarea {
+  vertical-align: top;
+  width: 12.66rem;
+  border: 1px #d3d3d3 solid;
+  height: 5.111rem;
+}
+.evaluateXq .evaluateCont .cont {
+  margin-top: 0rem;
+  margin-left: .2rem;
+  width: 12.222rem;
+  font-size: 0.5377rem;
+  color: #aaa;
+}
+.evaluateXq .imglist {
+  font-size: 0.5377rem;
+  overflow: hidden;
+}
+.evaluateXq .imglist img {
+  width: 2.622rem;
+  height: 2.622rem;
+  vertical-align: top;
+  border: 1px solid #e4e4e4;
+  margin-bottom: .2rem;
+}
+.evaluateXq .imglist .cont {
+  margin-left: .2rem;
+  margin-top: .2rem;
+  width: 12.222rem;
+  font-size: 0.5377rem;
+  color: #333;
+}
+/* 我的收藏 deleteSC 点击删除 */
+.deleteSC .Pcont {
+  position: relative;
+  -webkit-transform: translateX(2.222rem);
+}
+.deleteSC li {
+  background: url("../css/img/nogou.png") 0.6666rem center no-repeat #ffffff !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+  overflow: hidden;
+}
+.deleteSC .active {
+  background: url("../css/img/dagou.png") 0.6666rem center no-repeat !important;
+  -webkit-background-size: 0.911rem !important;
+  background-size: 0.911rem !important;
+}
+/* 我的积分 Integral */
+.Integral p {
+  color: #555;
+}
+.Integral .now {
+  color: #e24d4d;
+  position: relative;
+  top: 0.2rem;
+}
+.Integral .about-of {
+  color: #333;
+  font-size: 1.1555rem;
+}
+.Integral .time {
+  float: right;
+  color: #999;
+  font-size: 0.4888rem;
+  margin-top: 0.8rem;
+  margin-right: .2rem;
+}
+.Integral .Integral-detail {
+  margin-top: 0.8888rem;
+  background: #fff;
+}
+.Integral .Integral-detail li {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid #e5e5e6;
+}
+.Integral .Integral-detail p {
+  font-size: 0.5333rem;
+  overflow: hidden;
+  margin-top: .3rem;
+}
+.Integral .Integral-detail .value {
+  color: #e14041;
+  font-size: 0.6666rem;
+}
+.Integral .Integral-detail .span2 {
+  width: 11.22rem;
+  text-align: right;
+}
+.Integral .Integral-detail .p3 {
+  margin-top: .5rem;
 }
