@@ -648,6 +648,16 @@
   height: 2.177rem;
   text-indent: 0.4444rem;
 }
+.Login .LoginCont p .CAPTCHA {
+  width: 4rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Login .LoginCont p a {
+  display: inline-block;
+  font-size: 0.5377rem;
+  padding-left: .2rem;
+}
 .Login .protocol {
   margin: 0.3rem 0.6666rem;
   font-size: 0.6666rem;
