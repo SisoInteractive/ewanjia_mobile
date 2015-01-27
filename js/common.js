@@ -1,29 +1,21 @@
 /**
  * Created by Administrator on 2015/1/13 0013.
  */
-(function(){
+$(function(){
+    var font;
+    var win_W = $(window).width();
 
-    /* 添加用户窗口事件 改变根字号大小 */
-
-    document.body.addEventListener('touchstart',function(){});
-    function addEvent(obj,type,fn){
-        if(obj.addEventListener){
-            obj.addEventListener(type,fn,false);
-        } else {
-            obj.attachEvent('on'+type,fn);
+    if(win_W>=360 && win_W<=375){
+        font=23;
+    }else{
+        if(win_W>540){
+            font=34;
+        }else{
+            font = Math.round(win_W / 16);
         }
     }
-    function autoSize(){
-        var win_W = $(".container").width();
-            var font = Math.round(win_W / 16);
-            var HTML=document.getElementById('html');
-            HTML.style.fontSize = font + 'px';
+    var HTML=document.getElementById('html');
+    HTML.style.fontSize = font + 'px';
 
+})
 
-    }
-    addEvent(window,'load',autoSize);
-    addEvent(window,'resize',autoSize);
-    /*  end 添加用户窗口事件 */
-
-
-})()

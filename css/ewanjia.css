@@ -258,7 +258,7 @@
   display: block;
 }
 #productSearch .W-nav {
-  padding-bottom: 0.444rem;
+  padding-bottom: 0.444rem !important;
 }
 #productSearch .upBtn {
   width: 0.488rem;
@@ -935,7 +935,7 @@
   text-align: center;
 }
 .myCart .myCartBd ul .list .listR {
-  width: 8.466rem;
+  width: 8.3rem;
 }
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;
@@ -951,7 +951,7 @@
   margin-top: .35rem;
 }
 .myCart .myCartBd ul .list .listR .listRft span {
-  width: 4.1rem;
+  width: 4rem;
   height: 1.2rem;
   display: block;
   float: left;
@@ -1076,7 +1076,7 @@
   height: 3.555rem;
 }
 .myAddress .listHd .ListLeft {
-  width: 12rem;
+  width: 11.5rem;
 }
 .myAddress .listHd .ListLeft p {
   font-size: 0.6222rem;
@@ -3290,13 +3290,3 @@ select {
   font-size: 1.1555rem!important;
 }
 /*通用变量*/
-/*
-
-*/
-* {
-  -webkit-transition: all .25s;
-  -moz-transition: all .25s;
-  -ms-transition: all .25s;
-  -o-transition: all .25s;
-  transition: all .25s;
-}
