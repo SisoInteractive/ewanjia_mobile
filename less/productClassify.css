@@ -381,10 +381,29 @@
   margin-top: 0.222rem;
 }
 /* myModify */
+.ModifyAddress .prompt {
+  background: #fff;
+  padding: 0.6666rem 0.7111rem;
+}
+.ModifyAddress .prompt p {
+  font-size: 0.5777rem;
+  color: #7e7e7e;
+  line-height: .8rem;
+}
 .ModifyAddress .submitModify a {
   padding: .44rem 0;
   font-size: 0.8rem;
   margin-top: 0.888rem;
+}
+.ModifyAddress .fapiao .Cont {
+  margin-left: 0.366rem!important;
+}
+.ModifyAddress .fapiao .Cont input {
+  border: none;
+  height: 1.188rem;
+  width: 11.222rem;
+  margin-top: .5rem;
+  font-size: 0.6666rem !important;
 }
 .ModifyAddress .ModifyCont {
   background: #fff;
@@ -466,7 +485,7 @@
   background: #fff;
   height: 2.1777rem;
   padding-left: 2.2222rem;
-  line-height: 2.1777rem;
+  line-height: 2.23rem;
   background: url("../css/img/nogou.png") no-repeat 0.666rem center;
   -webkit-background-size: 0.9111rem;
   background-size: 0.9111rem;
@@ -1489,4 +1508,41 @@
 }
 .Integral .Integral-detail .p3 {
   margin-top: .5rem;
+}
+.Right-nav {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 22;
+}
+.Right-nav li {
+  display: block;
+  float: left;
+  width: 24.5%;
+  text-align: center;
+  height: 2.222rem;
+  border-right: 1px solid #ededed;
+  line-height: 3.5rem;
+  font-size: 0.4444rem;
+  color: #555;
+}
+.Right-nav .index {
+  background: url("../css/img/index.png") no-repeat center 0.3777rem #ffffff;
+  -webkit-background-size: 0.777rem;
+  background-size: 0.777rem;
+}
+.Right-nav .classify {
+  background: url("../css/img/classify2.png") no-repeat center 0.577rem #ffffff;
+  -webkit-background-size: 0.6444rem;
+  background-size: 0.6444rem;
+}
+.Right-nav .cart {
+  background: url("../css/img/cart.png") no-repeat center 0.4577rem #ffffff;
+  -webkit-background-size: 0.888rem;
+  background-size: 0.888rem;
+}
+.Right-nav .myEwj {
+  background: url("../css/img/myWjia.png") no-repeat center 0.4277rem #ffffff;
+  -webkit-background-size: 0.777rem;
+  background-size: 0.777rem;
 }
