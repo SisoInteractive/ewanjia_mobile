@@ -846,8 +846,8 @@
 }
 .myEwanjia .userInfo .userInfoHd {
   background: url("../css/img/myuserBg.png") no-repeat;
-  -webkit-background-size: 16rem;
-  background-size: 16rem;
+  -webkit-background-size: 17rem;
+  background-size: 17rem;
   height: 4.2666rem;
   text-align: center;
 }
@@ -1338,6 +1338,7 @@
 .myevaluate .p1 {
   padding-top: 0.4444rem;
   padding-bottom: 0.4444rem;
+  padding-right: 0;
 }
 .myevaluate .product {
   padding-top: 0.3rem;

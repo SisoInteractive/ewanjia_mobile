@@ -142,8 +142,10 @@
   float: right;
   border: none;
   width: 2.6444rem;
+  padding-right: .4rem;
+  margin-right: .3rem;
   m-right: .3rem;
-  background: url("../css/img/navSbg.png") no-repeat right center;
+  background: url("../css/img/navSbg.png") no-repeat 2.1rem center;
   background-size: 0.244rem;
   border-left: 1px solid #ebebeb;
   font-size: 0.57rem;
@@ -189,7 +191,7 @@
   background-color: #e14041;
 }
 .indexNav .active a {
-  color: #fff;
+  color: #fff!important;
 }
 /* 商品分类模块 */
 .productClass {
@@ -300,7 +302,7 @@
   height: 6.533rem;
 }
 .productSlide .swiper-wrapper {
-  height: 6.533rem;
+  height: 6.033rem;
   width: 100%;
   padding: 0 0.3777rem;
   float: left;
@@ -354,6 +356,10 @@
 }
 .Mtuijian .productUl {
   display: block!important;
+}
+.Mtuijian li {
+  margin-top: 0px !important;
+  margin-bottom: 0.222rem;
 }
 .Mtuijian .two {
   width: 49.26%;
