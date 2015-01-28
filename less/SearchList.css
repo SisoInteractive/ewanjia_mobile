@@ -89,6 +89,7 @@
 }
 /* Search list */
 .SearchListP {
+  padding-top: 1.555rem;
   background: #fff;
 }
 .SearchListP li {
