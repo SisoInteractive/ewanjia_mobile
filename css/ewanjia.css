@@ -834,6 +834,7 @@
 }
 .PTheme .themeCont .contwrapH {
   position: absolute;
+  padding-bottom: .3rem;
   margin-left: 0.133rem;
   margin-top: 0.133rem;
   background: #fff;
@@ -849,6 +850,48 @@
 }
 .PTheme .themeCont .contwrapH .themeImg {
   width: 13.622rem;
+}
+.PTheme .themeCont .contwrapH .left {
+  display: block;
+  float: left;
+  width: 30%;
+  margin-left: 0.35rem;
+}
+.PTheme .themeCont .contwrapH .right {
+  margin-left: 0.35rem;
+  display: block;
+  float: left;
+  width: 62.5%;
+}
+.PTheme .themeCont .contwrapH .right .bigImg {
+  margin-left: 0;
+  margin-right: 0.2888rem;
+  width: 100% !important;
+}
+.PTheme .themeCont .contwrapH .right .bigImg img {
+  width: 100%;
+  height: 8.455rem;
+}
+.PTheme .themeCont .contwrapH .right li {
+  display: block;
+  float: left;
+  width: 48.1% !important;
+}
+.PTheme .themeCont .contwrapH .right li img {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.PTheme .themeCont .contwrapH li {
+  display: block;
+  float: left;
+  margin-top: 0.355rem;
+  width: 99%;
+}
+.PTheme .themeCont .contwrapH li img {
+  display: block;
+  width: 100%;
+  height: 4.044rem;
 }
 /* theme cont */
 .themeFt {
@@ -3305,7 +3348,7 @@ select {
   float: left ;
 }
 .fl-r {
-  float: right;
+  float: right !important;
 }
 .fz14 {
   font-size: 0.3111rem!important;

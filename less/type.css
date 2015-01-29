@@ -667,7 +667,7 @@ select {
   float: left ;
 }
 .fl-r {
-  float: right;
+  float: right !important;
 }
 .fz14 {
   font-size: 0.3111rem!important;
