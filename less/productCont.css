@@ -71,21 +71,42 @@
 .ContBd p {
   line-height: .8rem;
 }
-.ContBd div {
-  padding: 0 0.222rem;
-}
 .ContBdL p {
   font-size: 0.444rem;
   width: 1.377rem;
   display: block;
 }
 .ContBdR {
-  width: 12.311rem;
   display: block;
+  padding: 0 .1rem;
+}
+.ContBdR input {
+  vertical-align: middle;
+}
+.ContBdR .mzDiv {
+  width: 13rem;
+  margin-left: .1rem;
+}
+.ContBdR .mzDiv .BgRlable,
+.ContBdR .mzDiv .BgB,
+.ContBdR .mzDiv .BgG {
+  position: relative;
+  top: -0.05rem;
+}
+.ContBdR .ts {
+  width: 13rem;
+  margin-left: 0.1rem;
+}
+.ContBdR .sumKz {
+  position: relative;
+  top: -0.1rem;
+  margin-left: .14rem;
 }
 .ContBdR .select {
-  width: 12.251rem;
-  background: url("../css/img/selectBg.png") no-repeat 11.711rem center;
+  position: relative;
+  top: -0.1rem;
+  width: 13rem;
+  background: url("../css/img/selectBg.png") no-repeat 12.21rem center;
   -webkit-background-size: 0.2666rem;
   background-size: 0.2666rem;
   height: 1.1777rem;
