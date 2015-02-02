@@ -1475,6 +1475,20 @@
   -webkit-background-size: 0.8888rem;
   background-size: 0.8888rem;
 }
+.Login .captcha {
+  width: 68% !important;
+}
+.Login .captchaBtn {
+  width: 29%;
+  background: #b4b4b4;
+  float: right;
+  display: block;
+  height: 2.2222rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.6666rem;
+  line-height: 2.2222rem;
+}
 .Login .active {
   background: url("../css/img/dagou.png") no-repeat 0 center !important;
   -webkit-background-size: 0.8888rem !important;
@@ -2370,6 +2384,10 @@
 .produnctWrap {
   padding-bottom: 1rem!important;
   background: #fff;
+}
+.produnctWrap .slide-banner .swiper-slide img {
+  width: 100%;
+  height: auto!important;
 }
 /* 商品 Cont */
 .ContHd {
