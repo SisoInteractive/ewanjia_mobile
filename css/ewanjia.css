@@ -2422,7 +2422,7 @@
   vertical-align: middle;
 }
 .ContBdR .mzDiv {
-  width: 13rem;
+  width: 12.5rem;
   margin-left: .1rem;
 }
 .ContBdR .mzDiv .BgRlable,
@@ -2443,8 +2443,8 @@
 .ContBdR .select {
   position: relative;
   top: -0.1rem;
-  width: 13rem;
-  background: url("../css/img/selectBg.png") no-repeat 12.21rem center;
+  width: 12.5rem;
+  background: url("../css/img/selectBg.png") no-repeat 11.71rem center;
   -webkit-background-size: 0.2666rem;
   background-size: 0.2666rem;
   height: 1.1777rem;
