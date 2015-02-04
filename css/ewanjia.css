@@ -706,6 +706,9 @@
   display: block;
   float: right;
 }
+.CjydDiv .clearfix a:nth-child(2) {
+  margin-left: .25rem;
+}
 /* 鲜活到 */
 .Xhdao img {
   width: 100%;
@@ -1740,13 +1743,19 @@
   width: 3rem;
   left: .2rem;
 }
+.myEwanjia .userInfo .userInfoHd .nameW {
+  display: inline-block;
+  position: relative;
+  min-width: 2rem;
+}
 .myEwanjia .userInfo .userInfoHd .Quit {
   color: #fff;
+  position: absolute;
   background: #d1223f;
   padding: 0 .2rem;
   border-radius: .2rem;
-  top: 2.3rem;
-  left: 8.3rem;
+  top: 1.3rem;
+  left: 0.3rem;
   font-size: 0.5377rem;
 }
 .myEwanjia .userInfo .userInfoBd {

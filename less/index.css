@@ -352,6 +352,9 @@
   display: block;
   float: right;
 }
+.CjydDiv .clearfix a:nth-child(2) {
+  margin-left: .25rem;
+}
 /* 鲜活到 */
 .Xhdao img {
   width: 100%;
