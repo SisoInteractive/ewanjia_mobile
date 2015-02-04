@@ -725,6 +725,9 @@
   margin-top: 0px !important;
   margin-bottom: 0.222rem;
 }
+.Mtuijian .two:nth-child(2n) {
+  float: right!important;
+}
 .Mtuijian .two {
   width: 49.26%;
   display: block;
@@ -2512,7 +2515,7 @@
   width: 2.322rem;
   border-left: 1px solid #ebebeb;
   height: 2rem;
-  line-height: 2.5rem;
+  line-height: 1.7rem;
   text-align: center;
 }
 #productCont .W-nav .more img {
