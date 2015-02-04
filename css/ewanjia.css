@@ -960,8 +960,7 @@
 }
 .myCart .myCartBd ul .list {
   overflow: hidden;
-  padding-top: 0.711rem;
-  padding-bottom: 0.711rem;
+  padding: 0.711rem 0.4444rem !important;
   background: #fff;
   background: url("../css/img/nogou.png") no-repeat #ffffff 0.666rem 2.2666rem;
   -webkit-background-size: 0.9111rem;
@@ -970,7 +969,7 @@
 }
 .myCart .myCartBd ul .list .listL {
   width: 4.0555rem;
-  margin-left: 1.5777rem;
+  padding-left: 1.5777rem;
 }
 .myCart .myCartBd ul .list .listL .Pimg {
   width: 3.8444rem;
@@ -993,7 +992,7 @@
 .myCart .myCartBd ul .list .listR {
   position: relative;
   width: 8.3rem;
-  margin-left: .1rem!important;
+  margin-left: .3rem!important;
   height: 5.1888rem;
 }
 .myCart .myCartBd ul .list .listR p {
