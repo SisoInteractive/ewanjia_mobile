@@ -1687,6 +1687,7 @@
   background-size: 17rem;
   height: 4.2666rem;
   text-align: center;
+  position: relative;
 }
 .myEwanjia .userInfo .userInfoHd .userhead {
   width: 3.0222rem ;
@@ -1697,9 +1698,18 @@
 }
 .myEwanjia .userInfo .userInfoHd .name {
   position: relative;
-  top: 0.46rem;
   color: #fff;
   left: .2rem;
+}
+.myEwanjia .userInfo .userInfoHd .Quit {
+  position: absolute;
+  color: #fff;
+  background: #d1223f;
+  padding: 0 .2rem;
+  border-radius: .2rem;
+  top: 2.3rem;
+  left: 8.3rem;
+  font-size: 0.5377rem;
 }
 .myEwanjia .userInfo .userInfoBd {
   background: #fff;
