@@ -263,6 +263,11 @@
   margin-left: .3rem!important;
   height: 5.1888rem;
 }
+.myCart .myCartBd ul .list .listR .name {
+  overflow: hidden;
+  height: 1.4rem;
+  line-height: .7rem;
+}
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;
 }
