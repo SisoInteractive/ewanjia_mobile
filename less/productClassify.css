@@ -245,7 +245,10 @@
   text-align: center;
 }
 .myCart .myCartBd ul .list .listR {
+  position: relative;
   width: 8.3rem;
+  margin-left: .1rem!important;
+  height: 5.1888rem;
 }
 .myCart .myCartBd ul .list .listR p {
   line-height: 0.55rem;
@@ -259,6 +262,10 @@
   display: block;
   float: right;
   margin-top: .35rem;
+}
+.myCart .myCartBd ul .list .listR .listRft {
+  position: absolute;
+  bottom: 0;
 }
 .myCart .myCartBd ul .list .listR .listRft span {
   width: 4rem;
