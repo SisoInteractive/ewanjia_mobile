@@ -244,12 +244,19 @@
 /* cart 购物车CSS */
 .myCart{
   .myCartBd{
+    /* cart 我的赠品 CSS */
+    .donation{
+      li{
+        background: none;
+      }
+    }
     ul{
       .activeli{
         background: url("../css/img/dagou.png") no-repeat #fff 0.666rem 2.2666rem !important;
         -webkit-background-size: 0.9111rem !important;
         background-size: 0.9111rem !important;
       }
+
 
       .list{
         overflow: hidden;
@@ -258,6 +265,14 @@
         background: url("../css/img/nogou.png") no-repeat #fff 0.666rem 2.2666rem;
         -webkit-background-size: 0.9111rem;
         background-size: 0.9111rem;
+        position: relative;
+        .radio{
+          position: absolute;
+          width: 1.9rem;
+          height: 3rem;
+          top:40%;
+          margin-top:-1.5rem ;
+        }
         .listL{
           width: 4.0555rem;
           padding-left: 1.5777rem;
@@ -335,19 +350,40 @@
   /* myCart ft*/
   .myCartft{
     background: #fff;
+    position: relative;
+    padding-bottom: .25rem;
+    p{
+      padding-top: .2rem;
+    }
+    .clearfix{
+      span{
+        float: left;
+        padding-right: .2rem;
+        line-height: .9rem;
+      }
+      .fz28{
+        margin-top: -.05rem;
+      }
+      .fz50{
+        margin-top: -.08rem;
+      }
+    }
     .price{
       font-size: 1.111rem;
     }
     .hd{
       margin-top: 0.71rem;
-      margin-left: 0.666rem;
+      margin-left: 0.466rem;
     }
     .Clearing{
       width: 4rem;
       height: 2.222rem;
       font-size: 0.8rem;
+      position: absolute;
+      right: 0;
       color: #fff;
       text-align: center;
+      top: 0;
       line-height:2.222rem;
       background: #e04040;
     }
