@@ -228,13 +228,20 @@
   top: 1px;
   left: -1px;
 }
+.productClass .ClassBd .Group li:nth-child(2) {
+  border-left: 1px solid #e5e5e5;
+}
 .productClass .ClassBd .productUl {
   display: -webkit-box;
   border-top: 1px solid #ededed;
   display: -moz-box;
   display: -o-box;
 }
+.productClass .ClassBd .productUl .three:nth-child(1) {
+  border-left: none;
+}
 .productClass .ClassBd .productUl .three {
+  border-left: 1px #e5e5e5 solid;
   width: 5.022rem;
 }
 .productClass .ClassBd .productUl .three a img {
