@@ -293,10 +293,12 @@
   font-size: 0.444rem;
   color: #333;
   line-height: 0.5rem;
-  height: .9rem;
+  height: 1rem;
+  overflow: hidden;
 }
 .productClass .ClassBd .productUl li .price {
-  font-size: 0.666rem;
+  font-size: 0.566rem;
+  padding: 0.05rem 0;
 }
 .productClass .ClassBd .productUl li i {
   font-style: normal;
