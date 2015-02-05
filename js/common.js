@@ -5,13 +5,22 @@ $(function(){
     var font;
     var win_W = $(window).width();
 
-    if(win_W>=360 && win_W<=375){
+    if(win_W>=364 && win_W<=375){
         font=23;
     }else{
-        if(win_W>540){
-            font=34;
+
+        if(win_W==360 || win_W==361){
+            
+            font=22;
+
         }else{
-            font = Math.round(win_W / 16);
+
+            if(win_W>540){
+                font=34;
+            }else{
+                font = Math.round(win_W / 16);
+            }
+
         }
     }
     var HTML=document.getElementById('html');
