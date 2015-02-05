@@ -384,6 +384,9 @@
   -webkit-background-size: 0.8666rem;
   background-size: 0.8666rem;
 }
+.myOrder .OrderInfo .cont p {
+  width: 13rem;
+}
 .myOrder .OrderInfo .cont .phone {
   padding-left: 1rem;
 }
