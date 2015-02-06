@@ -972,6 +972,15 @@
 .myCart .myCartBd {
   /* cart 我的赠品 CSS */
 }
+.myCart .myCartBd .CartNo {
+  width: 3.1111rem;
+  margin: 0 auto;
+  display: block;
+  padding: .6rem 0;
+}
+.myCart .myCartBd .btnW100 {
+  padding: .15rem 0;
+}
 .myCart .myCartBd .donation li {
   background: none;
 }
@@ -2500,6 +2509,15 @@
   background: url("../css/img/fildw.png") no-repeat 10rem center;
   -webkit-background-size: 0.422rem;
   background-size: 0.422rem;
+}
+.null {
+  text-align: center;
+}
+.null img {
+  display: block;
+  padding: 1.5rem 0;
+  width: 2.8rem;
+  margin: 0 auto;
 }
 
 /* productCont page */

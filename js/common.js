@@ -10,7 +10,7 @@ $(function(){
     }else{
 
         if(win_W==360 || win_W==361){
-            
+
             font=22;
 
         }else{
