@@ -97,7 +97,8 @@
   position: relative;
 }
 .SearchListP .name {
-  margin-top: 0.2rem;
+  margin-top: .2rem;
+  width: 10rem;
 }
 .SearchListP p {
   line-height: .7rem;
