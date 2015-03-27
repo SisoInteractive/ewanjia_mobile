@@ -52,6 +52,28 @@
 #SearchP .W-nav .more img {
   width: 1.066rem;
 }
+/* Living 持家有道 */
+.Living {
+  padding-top: .2rem!important;
+}
+.Living li {
+  padding: 0.555rem 0.444rem 0.555rem 0.914rem!important;
+  position: relative;
+}
+.Living li .name {
+  margin-top: .2rem;
+  width: 10rem;
+  height: 1.53rem;
+  overflow: hidden;
+  line-height: .8rem;
+}
+.PTheme .shadow {
+  -moz-box-shadow: 0px 1px 2px #d4d4d4;
+  -webkit-box-shadow: 0px 1px 2px #d4d4d4;
+  /* box-shadow: 0px 1px 2px #d4d4d4; */
+  position: relative;
+  z-index: 2;
+}
 /* Snav */
 .Snav .shadow {
   -moz-box-shadow: 1px 2px 2px #e7e7e7;
@@ -105,7 +127,7 @@
 }
 .SearchListP .Pimg {
   width: 3.955rem;
-  /*height: 3.505rem;*/
+  height: 3.955rem;
 }
 .SearchListP .titleTiny {
   font-size: 0.533rem;
